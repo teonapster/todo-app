@@ -22,7 +22,16 @@ export function reducer(state = initialState, action: TodoActions): State {
     case TodoActionTypes.LoadTodosSuccess:
       return { ...state, todos: [...action.payload.todos], loading: false};
     case TodoActionTypes.AddTodo:
-      return { ...state, todos: [...state.todos, {comments: [], id: null, resolved: false, text: 'New Todo text', title: `New Todo ${state.todos.length + 2}`}], loading: true};
+      return { ...state, todos: [
+        ...state.todos,
+        {
+          comments: [],
+          id: null,
+          resolved: false,
+          text: 'New Todo text',
+          title: `New Todo ${state.todos.length + 1}`}
+        ]
+      };
     case TodoActionTypes.CreateTodoSuccess:
       const updatedTodos = JSON.parse(JSON.stringify(state.todos));
       updatedTodos[action.payload.indexToUpdate].id = action.payload.id;
@@ -30,7 +39,7 @@ export function reducer(state = initialState, action: TodoActions): State {
     case TodoActionTypes.CreateTodoFail:
     case TodoActionTypes.LoadTodosFail:
     case TodoActionTypes.EditTodoFail:
-      return { ...state, loading: false}; 
+      return { ...state, loading: false};
     case TodoActionTypes.RemoveTodo:
       const clonedTodos = JSON.parse(JSON.stringify(state.todos));
       clonedTodos.splice(action.payload.indexToRemove, 1);

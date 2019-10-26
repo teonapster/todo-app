@@ -1,60 +1,53 @@
 {
   "todos": [
     {
+      "comments": [],
+      "id": 1,
       "resolved": false,
-      "id": "1",
-      "title": "My #1 todo",
-      "text": "This is the description of my todo #1",
-      "comments": []
-    },
-    {
-      "resolved": false,
-      "id": "2",
-      "title": "My #2 todo",
-      "text": "This is the description of my todo #2",
-      "comments": []
-    },
-    {
-      "resolved": false,
-      "id": "3",
-      "title": "My #3 todo",
-      "text": "This is the description of my todo #3",
-      "comments": []
-    },
-    {
-      "resolved": false,
-      "id": "4",
-      "title": "My #4 todo",
-      "text": "This is the description of my todo #4",
-      "comments": []
+      "text": "test",
+      "title": "New Todo 1"
     },
     {
       "comments": [],
-      "id": "liQ07uX",
+      "id": 2,
       "resolved": false,
       "text": "New Todo text",
-      "title": "New Todo 6"
+      "title": "New Todo jkhgjhgf3"
     },
     {
       "comments": [],
-      "id": "TURXdcx",
+      "id": 3,
       "resolved": false,
       "text": "New Todo text",
-      "title": "New Todo 7"
+      "title": "New Todo 2"
     },
     {
       "comments": [],
-      "id": "OtV6lk3",
+      "id": 4,
       "resolved": false,
-      "text": "New Todo text2",
-      "title": "This is the update one"
+      "text": "New Todo text",
+      "title": "New Todo 2"
     },
     {
       "comments": [],
-      "id": "Rr13FOk",
+      "id": 5,
       "resolved": false,
-      "text": "New Todo text3",
-      "title": "New Todo 9"
+      "text": "New Todo text",
+      "title": "New Todo 2"
+    },
+    {
+      "comments": [],
+      "id": 6,
+      "resolved": false,
+      "text": "New Todo text",
+      "title": "New Todo 2"
+    },
+    {
+      "comments": [],
+      "id": 7,
+      "resolved": false,
+      "text": "New Todo text",
+      "title": "New Todo 2"
     }
   ]
 }

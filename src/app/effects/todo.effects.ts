@@ -1,12 +1,24 @@
 import { Injectable } from '@angular/core';
 import { Actions, Effect, ofType } from '@ngrx/effects';
-import { LoadTodos, TodoActionTypes, LoadTodosSuccess, LoadTodosFail, CreateTodo, CreateTodosSuccess, CreateTodoFail, EditTodo, EditTodosSuccess, EditTodoFail, RemoveTodo, RemoveTodoCancel, RemoveTodoSuccess, RemoveTodoFail } from '../actions/todo.actions';
+import {
+  LoadTodos,
+  TodoActionTypes,
+  LoadTodosSuccess,
+  LoadTodosFail,
+  CreateTodo,
+  CreateTodosSuccess,
+  CreateTodoFail,
+  EditTodo,
+  EditTodosSuccess,
+  EditTodoFail,
+  RemoveTodo,
+  RemoveTodoCancel,
+  RemoveTodoSuccess,
+  RemoveTodoFail } from '../actions/todo.actions';
 import { TodoApiService } from '../api/todo-api.service';
 import { of } from 'rxjs';
-import { map, catchError, switchMap, tap } from 'rxjs/operators';
+import { map, catchError, switchMap } from 'rxjs/operators';
 import TodoGetDto from '../dtos/get/todo';
-import { Store } from '@ngrx/store';
-import { State } from '../reducers/todo.reducer';
 
 @Injectable()
 export class TodoEffects {
@@ -52,18 +64,18 @@ export class TodoEffects {
   @Effect({dispatch: false})
   deleteTodoEffect = this.actions$.pipe(
     ofType<RemoveTodo>(TodoActionTypes.RemoveTodo),
-    map(action => {
+    switchMap(action => {
       if (!action.payload.id) {
-        return new RemoveTodoCancel()
+        return of(new RemoveTodoCancel());
       }
       return this.todoService.deleteTodo(action.payload.id).pipe(
         map(() => new RemoveTodoSuccess()),
         catchError(() => of(new RemoveTodoFail()))
-      )
+      );
     })
   );
 
 
-  constructor(private store: Store<State>, private actions$: Actions, private todoService: TodoApiService) {}
+  constructor(private actions$: Actions, private todoService: TodoApiService) {}
 
 }

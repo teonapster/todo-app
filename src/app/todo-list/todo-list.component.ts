@@ -21,10 +21,10 @@ export class TodoListComponent implements OnInit {
     this.todoStore.dispatch(new LoadTodos());
     this.todoStore.pipe(select(getTodoListSelector)).subscribe(todos => {
       this.todos = todos;
-    })
+    });
     this.todoStore.pipe(select(getTodoLoaderSelector)).subscribe( loading => {
       this.loading = loading;
-    })
+    });
   }
 
   public save(createOrEditModel: ICreateOrEditTodo) {
@@ -37,6 +37,6 @@ export class TodoListComponent implements OnInit {
 
   public delete(indexToRemove: number) {
     const todoToRemove = this.todos[indexToRemove];
-    return this.todoStore.dispatch(new RemoveTodo({indexToRemove, id: todoToRemove.id}))
+    return this.todoStore.dispatch(new RemoveTodo({indexToRemove, id: todoToRemove.id}));
   }
 }

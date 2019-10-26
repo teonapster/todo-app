@@ -1,3 +1,4 @@
-<app-todo *ngFor="let todo of todos; let i = index" [todo]="todo" (save)="save($event)" (delete)="delete(i)">
-
+<div class="todo-list">
+  <app-todo *ngFor="let todo of todos; let i = index" [todo]="todo" (save)="save($event)" (delete)="delete(i)"></app-todo>
+</div>
 <span *ngIf="loading">Loading...</span>
