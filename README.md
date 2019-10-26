@@ -14,6 +14,18 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Git commit
+
+After staging the desired files you can safely run `git cz` in order to add a proper commit message that has description/title/scope etc. Check commitizen for further details.
+
+## Release new version
+
+Run `npm run release -- --release-as minor|major|patch` to release a new version and also update changelog file.
+
+### Push tag after release
+
+After releasing new version you can run `git push --follow-tags origin master` to push your latest tag 
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
