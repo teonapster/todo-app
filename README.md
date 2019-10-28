@@ -1,3 +1,5 @@
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 # TodoApp
 This project developed just for personal fun and exersizing with some of the coolest technologies arround the Angular framework. Apart from the "fun" part there was a series of questions spinning arround in my head and finally push me to bring this small project to life.
 
@@ -9,6 +11,12 @@ This project is not yet completed but its in a good shape to let you understand 
 ![Demo image](https://github.com/teonapster/todo-app/blob/master/readme-snip.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
+
+## Current stack
+* Angular
+* Rxjs
+* NgRx
+* Scss
 
 ## Git commit
 
