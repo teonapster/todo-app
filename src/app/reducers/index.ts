@@ -12,7 +12,7 @@ export interface State {
 }
 
 export const reducers: ActionReducerMap<State> = {
-  [fromTodo.todoFeatureKey]: fromTodo.reducer,
+  todo: fromTodo.reducer,
 };
 
 export const metaReducers: MetaReducer<State>[] = !environment.production ? [] : [];

@@ -14,6 +14,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Current stack
 * Angular
+* PWA
 * Rxjs
 * NgRx
 * Scss

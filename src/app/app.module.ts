@@ -16,6 +16,7 @@ import { APIInterceptor } from './api/http-interceptor.service';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { TodoComponent } from './todo/todo.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
       }
     }),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
-    EffectsModule.forRoot([AppEffects, TodoEffects])
+    EffectsModule.forRoot([AppEffects, TodoEffects]),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS,
