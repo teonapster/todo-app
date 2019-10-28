@@ -31,7 +31,7 @@ Run `npm run release -- --release-as minor|major|patch` to release a new version
 After releasing new version you can run `git push --follow-tags origin master` to push your latest tag 
 
 ## Run the project
-Since this project was created angular-cli its always enough to run `ng serve` and then open `http://localhost:4200`. Apart from that you need to run a backend which will be able to persist your todo list and also make it accessible through the web. Right now i am using a dummy backend through json-server app.
+Since this project was created angular-cli its always enough to run `ng serve` and then open `http://localhost:4200`. Apart from that you need to run a backend which will be able to persist your todo list and also make it accessible through the web. Right now i am using a dummy backend through json-server app. In order to install it run `npm i --save -g json-server` (if you want you can add it in your local dependencies instead). So apart from the `ng serve` open a second terminal and run `json-server ./src/app/mock-data.json` in the root folder. Now the app should be alive
 
 ## Pending parts
 Even if this project is presentable there are a couple of things to be added in the future:
