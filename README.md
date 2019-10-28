@@ -1,4 +1,11 @@
 # TodoApp
+This project developed just for personal fun and exersizing with some of the coolest technologies arround the Angular framework. Apart from the "fun" part there was a series of questions spinning arround in my head and finally push me to bring this small project to life.
+[^1]: Human memory is not that robust, how many times did you forget one of your critical daily jobs? 
+[^2]: How many times did you find yourself following several steps & clicks just to log one simple todo through complicated platforms?
+[^3]: And how many times did you forget that one of your todos is logged in your mobile app which was not synchronized with your desktop app?
+
+This project is not yet completed but its in a good shape to let you understand the main concept: 
+![Demo image] (https://github.com/teonapster/todo-app/readme-snip.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
