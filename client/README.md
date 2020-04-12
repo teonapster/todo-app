@@ -8,7 +8,7 @@ This project developed just for personal fun and exersizing with some of the coo
 3. And how many times did you forget that one of your todos is logged in your mobile app which was not synchronized with your desktop app?
 
 This project is not yet completed but its in a good shape to let you understand the main concept: 
-![Demo image](https://github.com/teonapster/todo-app/blob/master/readme-snip.png)
+![Demo image](https://github.com/teonapster/todo-app/blob/master/client/readme-snip.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
