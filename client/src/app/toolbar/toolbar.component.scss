@@ -1,0 +1,10 @@
+@import "custom-styles";
+
+.btn {
+  padding: map-get($spacings, sm);
+  background: map-get($colors, todo-bg);
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  box-shadow: 1px 1px 5px map-get($colors, todo-shadow);
+}

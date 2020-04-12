@@ -1,0 +1,11 @@
+.main-container {
+  height: 100vh;
+  background-image: url('~/assets/bg.jpg');
+  overflow: auto;
+
+  .toolbar {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+}

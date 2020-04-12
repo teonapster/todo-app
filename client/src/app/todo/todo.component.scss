@@ -1,0 +1,58 @@
+@import "custom-styles";
+
+.todo-container {
+  padding: map-get($spacings, m);
+  margin: map-get($spacings, s);
+  background-color: map-get($colors, todo-bg);
+  box-shadow: 1px 1px 2px map-get($colors, todo-shadow);
+
+  @include tablet-vertical {
+    width: 92vw;
+  }
+
+  @include mobile {
+    width: 92vw;
+  }
+
+  @include tablet-landscape {
+    width: 450px;
+  }
+
+  @include desktop {
+    width: 300px;
+  }
+
+  .todo-form {
+    display: flex;
+    flex-flow: column;
+    hr {
+      width: 100%;
+    }
+    .custom-input {
+      background: transparent;
+      border: none;
+      outline: none;
+      &:focus {
+        border-bottom: 2px solid blue;
+      }
+
+      &.title {
+        font-size: map-get($font-sizes, heading);
+      }
+
+      &.text {
+        font-size: map-get($font-sizes, text);
+        resize: none;
+        height: 50px;
+      }
+    }
+    .actions {
+      display: flex;
+      flex-flow: row;
+      padding-top: map-get($spacings, xs);
+      .lock-state {
+        margin-left: auto;
+      }
+    }
+  }
+}
