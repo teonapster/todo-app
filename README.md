@@ -34,16 +34,16 @@ After releasing new version you can run `git push --follow-tags origin master` t
 ## Run the project
 Since this project was created angular-cli its always enough to run `ng serve` and then open `http://localhost:4200`. Apart from that you need to run a backend which will be able to persist your todo list and also make it accessible through the web. Right now i am using a dummy backend through json-server app. In order to install it run `npm i --save -g json-server` (if you want you can add it in your local dependencies instead). So apart from the `ng serve` open a second terminal and run `json-server ./src/app/mock-data.json` in the root folder. Now the app should be alive
 
-## Pending parts
-Even if this project is presentable there are a couple of things to be added in the future:
-
 ### Backend
-Right now i am working to replace the fake backend that i am using to C.R.U.D. the todo list items. This backend will use the following stuff
+Backend uses the following stack
 * NodeJs & Typescript lang,
-* A simple ORM like typeorm,
-* Mongodb,
+* Typeorm (Future enhancement),
+* Postgres,
 * Express,
 * Docker
+
+## Pending parts
+Even if this project is presentable there are a couple of things to be added in the future:
 
 ### Authentication
 Right now if you expose this app to WWW then you will notice that everyone will be able to modify your todos. Thus, i'll need to provide a secure authentication to keep your todos safe. In a simple form this could be even basic authentication but thats not my intention.
