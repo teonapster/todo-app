@@ -1,3 +1,8 @@
+/**
+  WARNING: This is just a quick way to initiate a server that provides 1-2 endpoints. There needs to be an improvement by adding
+  an ORM, a Data Access layer and maybe Nest.js as the main BE framework
+**/
+
 const keys = require('./keys');
 
 // Express App Setup
