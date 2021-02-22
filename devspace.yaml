@@ -1,0 +1,131 @@
+version: v1beta9
+images:
+  database:
+    image: postgres
+    tags:
+    - latest
+    createPullSecret: true
+    build:
+      disabled: true
+  app:
+    image: teonapster/todo-api
+    dockerfile: ./Dockerfile.server
+    preferSyncOverRebuild: false
+    injectRestartHelper: true
+    appendDockerfileInstructions:
+    - USER root
+  client:
+    image: teonapster/todo-client
+    dockerfile: ./Dockerfile.client
+    preferSyncOverRebuild: true
+    appendDockerfileInstructions:
+    - USER root
+  nginx:
+    image: teonapster/todo-nginx
+    dockerfile: ./Dockerfile.nginx.dev
+    preferSyncOverRebuild: true
+    appendDockerfileInstructions:
+    - USER root
+deployments:
+- name: database
+  helm:
+    componentChart: true
+    values:
+      containers:
+      - image: postgres:latest
+        env:
+        - name: POSTGRES_PASSWORD
+          value: "postgres_password"
+      service:
+        ports:
+        - port: 5432
+- name: api
+  helm:
+    componentChart: true
+    values:
+      containers:
+      - image: teonapster/todo-api
+        env:
+        - name: PGUSER
+          value: "postgres"
+        - name: PGHOST
+          value: "postgres"
+        - name: PGDATABASE
+          value: "postgres"
+        - name: PGPASSWORD
+          value: "postgres_password"
+        - name: PGPORT
+          value: "5432"
+      service:
+        ports:
+        - port: 5000
+- name: client
+  helm:
+    componentChart: true
+    values:
+      containers:
+      - image: teonapster/todo-client
+      service:
+        ports:
+        - port: 4200
+- name: nginx
+  helm:
+    componentChart: true
+    values:
+      containers:
+      - image: teonapster/todo-nginx
+      service:
+        ports:
+        - port: 80
+dev:
+  ports:
+  # - imageName: app
+  #   forward:
+  #   - port: 5000
+  # - imageName: client
+  #   forward:
+  #   - port: 4200
+  - imageName: nginx
+    forward:
+    - port: 80
+  open:
+  - url: http://localhost
+  sync:
+  # - imageName: app
+  #   localSubPath: ./server
+  #   containerPath: /app
+  #   excludePaths:
+  #   - .git/
+  #   uploadExcludePaths:
+  #   - devspace.yaml
+  #   onUpload:
+  #     restartContainer: true
+  - imageName: client
+    localSubPath: ./client
+    containerPath: /app/dist
+    excludePaths:
+    - .git/
+    uploadExcludePaths:
+    - devspace.yaml
+    onUpload:
+      restartContainer: true
+profiles:
+- name: production
+  description: ""
+  patches:
+  - op: remove
+    path: images.app.appendDockerfileInstructions
+  - op: remove
+    path: images.app.injectRestartHelper
+- name: interactive
+  description: ""
+  patches:
+  - op: add
+    path: dev.interactive
+    value:
+      defaultEnabled: true
+  - op: add
+    path: images.app.entrypoint
+    value:
+    - sleep
+    - "9999999999"
