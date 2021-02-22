@@ -15,14 +15,15 @@ app.use(bodyParser.json());
 
 
 // Initiate postgres
-const { Pool } = require('pg');
-const pgClient = new Pool({
+const { Client } = require('pg');
+const pgClient = new Client({
   user: keys.pgUser,
   host: keys.pgHost,
   database: keys.pgDatabase,
   password: keys.pgPassword,
   port: keys.pgPort
 });
+pgClient.connect();
 pgClient.on('error', () => console.log('Lost PG connection'));
 
 /**
@@ -45,9 +46,9 @@ app.get('/', (req, res) => {
  * this is the todo getAll method
  */
 app.get('/todos', async (req, res) => {
-  const values = await pgClient.query('SELECT * from todos');
-
-  res.send(values.rows);
+  const values = await pgClient.query('SELECT * from todos', (err, res) => console.log(err,res));
+  console.log('get')
+  res.send(values ? values.rows : []);
 });
 
 /**
@@ -65,24 +66,28 @@ app.put('/todos', async (req, res) => {
   // TODO: check for bad request
 
   // TODO: check if todo already exists
-
-  if(id) {
-    pgClient.query('UPDATE todos SET (resolved, title, text, comments) = ($1, $2, $3, $4) WHERE id=$5', [
-      resolved,
-      title,
-      text,
-      comments,
-      id
-    ]);
-
-  } else {
-    pgClient.query('INSERT INTO todos(resolved, title, text, comments) VALUES($1, $2, $3, $4)', [
-      resolved,
-      title,
-      text,
-      comments
-    ]);
+  try {
+    if(id) {
+      await pgClient.query('UPDATE todos SET (resolved, title, text, comments) = ($1, $2, $3, $4) WHERE id=$5', [
+        resolved,
+        title,
+        text,
+        comments,
+        id
+      ]);
+      
+    } else {
+      await pgClient.query('INSERT INTO todos(resolved, title, text, comments) VALUES($1, $2, $3, $4)', [
+        resolved,
+        title,
+        text,
+        comments
+      ], (err, res)=> console.log(err, res));
+    } 
+  }catch(e) {
+    console.log(e)
   }
+  console.log('put')
   res.send();
 });
 
@@ -92,4 +97,5 @@ app.put('/todos', async (req, res) => {
  */
 app.listen(5000, err => {
   console.log('Listening');
+  console.log(err)
 });

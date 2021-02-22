@@ -1,0 +1,2 @@
+{"level":"error","msg":"Runtime error occurred: error closing listener: close tcp4 127.0.0.1:80: use of closed network connection","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Runtime error occurred: error closing listener: close tcp6 [::1]:80: use of closed network connection","time":"2021-02-21T19:04:39+02:00"}

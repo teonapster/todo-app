@@ -1,0 +1,1384 @@
+{"level":"info","msg":"Using namespace '\u001b[1;37mtodo-app\u001b[0m'","time":"2021-02-20T18:48:09+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T18:48:09+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-client:WvZrEgO: COPY failed: stat /var/lib/docker/tmp/docker-builder550865457/package.json: no such file or directory","time":"2021-02-20T18:48:19+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mtodo-app\u001b[0m'","time":"2021-02-20T18:51:21+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T18:51:21+02:00"}
+{"level":"fatal","msg":"error during shouldRebuild check: Dockerfile ./client/Dockerfile.client.dev missing: stat ./client/Dockerfile.client.dev: no such file or directory","time":"2021-02-20T18:51:22+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mtodo-app\u001b[0m'","time":"2021-02-20T18:51:34+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T18:51:34+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-api:lsWyDxW: COPY failed: stat /var/lib/docker/tmp/docker-builder805511051/package.json: no such file or directory","time":"2021-02-20T18:51:43+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mtodo-app\u001b[0m'","time":"2021-02-20T18:53:01+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T18:53:01+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-api:ezLFuCO: COPY failed: stat /var/lib/docker/tmp/docker-builder484197877/package.json: no such file or directory","time":"2021-02-20T18:53:14+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mtodo-app\u001b[0m'","time":"2021-02-20T18:55:18+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T18:55:18+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-api:cGvTQja: COPY failed: stat /var/lib/docker/tmp/docker-builder224758128/package.json: no such file or directory","time":"2021-02-20T18:55:28+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mtodo-app\u001b[0m'","time":"2021-02-20T18:56:44+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T18:56:44+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-api:SPzCzPe: COPY failed: stat /var/lib/docker/tmp/docker-builder174835234/package.json: no such file or directory","time":"2021-02-20T18:56:52+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mtodo-app\u001b[0m'","time":"2021-02-20T18:58:57+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T18:58:57+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-api:ArDCMBr: COPY failed: stat /var/lib/docker/tmp/docker-builder329244068/package.json: no such file or directory","time":"2021-02-20T18:59:06+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mtodo-app\u001b[0m'","time":"2021-02-20T18:59:24+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T18:59:24+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-api:sNszpPg: COPY failed: stat /var/lib/docker/tmp/docker-builder689679990/package.json: no such file or directory","time":"2021-02-20T18:59:33+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mtodo-app\u001b[0m'","time":"2021-02-20T19:00:52+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T19:00:52+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-api:gtwHFem: COPY failed: stat /var/lib/docker/tmp/docker-builder256199960/package.json: no such file or directory","time":"2021-02-20T19:01:01+02:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-02-20T19:14:27+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T19:14:32+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T19:14:32+02:00"}
+{"level":"info","msg":"Created image pull secret default/devspace-auth-docker","time":"2021-02-20T19:14:32+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-api:IArpVjq: COPY failed: stat /var/lib/docker/tmp/docker-builder662464426/package.json: no such file or directory","time":"2021-02-20T19:14:41+02:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-02-20T19:15:31+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T19:15:36+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T19:15:36+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-client:JDwoGEl: The command '/bin/sh -c npm install' returned a non-zero code: 1","time":"2021-02-20T19:16:08+02:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-02-20T19:20:08+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T19:20:13+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T19:20:13+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-client:ZfihlDv: cannot inject restart helper into Dockerfile because neither ENTRYPOINT nor CMD was found.\n\nHow to fix this:\n- Option A: Define an ENTRYPOINT (or CMD) in your Dockerfile\n- Option B: Set `images.*.entrypoint` option in your devspace.yaml\n- Option C: If you don't want to inject the restart helper, set `images.*.injectRestartHelper` to false","time":"2021-02-20T19:20:16+02:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-02-20T19:21:36+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T19:21:41+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T19:21:41+02:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-02-20T19:28:05+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T19:28:10+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T19:28:10+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-client:GUXxeVO: COPY failed: stat /var/lib/docker/tmp/docker-builder720543343/package.json: no such file or directory","time":"2021-02-20T19:28:58+02:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-02-20T19:29:03+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T19:29:08+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T19:29:08+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-client:ZTonBEL: The command '/bin/sh -c npm install' returned a non-zero code: 1","time":"2021-02-20T19:29:44+02:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-02-20T19:30:05+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T19:30:10+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T19:30:10+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-client:mhdhHuf: The command '/bin/sh -c npm install' returned a non-zero code: 1","time":"2021-02-20T19:30:42+02:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-02-20T21:16:08+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:16:13+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:16:13+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:OiqtxIj (app)","time":"2021-02-20T21:16:56+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-client:EDPQeYE: The command '/bin/sh -c npm install' returned a non-zero code: 1","time":"2021-02-20T21:17:06+02:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-02-20T21:18:44+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:18:49+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:18:49+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:gsmPyGZ (app)","time":"2021-02-20T21:19:21+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:FWYlSTr (client)","time":"2021-02-20T21:21:02+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 1)","time":"2021-02-20T21:21:03+02:00"}
+{"level":"info","msg":"Successfully deployed server with helm","time":"2021-02-20T21:21:03+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 1)","time":"2021-02-20T21:21:04+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-20T21:21:04+02:00"}
+{"level":"info","msg":"Successfully deployed!","time":"2021-02-20T21:21:04+02:00"}
+{"level":"info","msg":"\r         \nRun: \n- `\u001b[1;37mdevspace open\u001b[0m` to create an ingress for the app and open it in the browser \n- `\u001b[1;37mdevspace enter\u001b[0m` to open a shell into the container \n- `\u001b[1;37mdevspace logs\u001b[0m` to show the container logs\n- `\u001b[1;37mdevspace analyze\u001b[0m` to analyze the space for potential issues\n","time":"2021-02-20T21:21:04+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:21:10+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:21:10+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-b479976bb-6cdws)","time":"2021-02-20T21:21:16+02:00"}
+{"level":"info","msg":"Successfully opened http://localhost:4200","time":"2021-02-20T21:21:18+02:00"}
+{"level":"info","msg":"Press ENTER to terminate port-forwarding process","time":"2021-02-20T21:21:18+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:25:51+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:25:51+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:OJDeZNg (app)","time":"2021-02-20T21:27:45+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:fAtbmPB (client)","time":"2021-02-20T21:27:45+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 2)","time":"2021-02-20T21:27:46+02:00"}
+{"level":"info","msg":"Successfully deployed server with helm","time":"2021-02-20T21:27:46+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 2)","time":"2021-02-20T21:27:47+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-20T21:27:47+02:00"}
+{"level":"info","msg":"Successfully deployed!","time":"2021-02-20T21:27:47+02:00"}
+{"level":"info","msg":"\r         \nRun: \n- `\u001b[1;37mdevspace open\u001b[0m` to create an ingress for the app and open it in the browser \n- `\u001b[1;37mdevspace enter\u001b[0m` to open a shell into the container \n- `\u001b[1;37mdevspace logs\u001b[0m` to show the container logs\n- `\u001b[1;37mdevspace analyze\u001b[0m` to analyze the space for potential issues\n","time":"2021-02-20T21:27:47+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:31:25+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:31:25+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:aOJqkCm (app)","time":"2021-02-20T21:32:37+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:kPkvAvE (client)","time":"2021-02-20T21:32:38+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 3)","time":"2021-02-20T21:32:38+02:00"}
+{"level":"info","msg":"Successfully deployed server with helm","time":"2021-02-20T21:32:38+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 3)","time":"2021-02-20T21:32:39+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-20T21:32:39+02:00"}
+{"level":"info","msg":"Successfully deployed!","time":"2021-02-20T21:32:39+02:00"}
+{"level":"info","msg":"\r         \nRun: \n- `\u001b[1;37mdevspace open\u001b[0m` to create an ingress for the app and open it in the browser \n- `\u001b[1;37mdevspace enter\u001b[0m` to open a shell into the container \n- `\u001b[1;37mdevspace logs\u001b[0m` to show the container logs\n- `\u001b[1;37mdevspace analyze\u001b[0m` to analyze the space for potential issues\n","time":"2021-02-20T21:32:39+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:33:27+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:33:27+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-d5db97bfc-88g5w)","time":"2021-02-20T21:33:36+02:00"}
+{"level":"info","msg":"Successfully opened http://localhost:4200","time":"2021-02-20T21:33:38+02:00"}
+{"level":"info","msg":"Press ENTER to terminate port-forwarding process","time":"2021-02-20T21:33:38+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:41:34+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:41:34+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-nginx:iXLsBor: cannot inject restart helper into Dockerfile because neither ENTRYPOINT nor CMD was found.\n\nHow to fix this:\n- Option A: Define an ENTRYPOINT (or CMD) in your Dockerfile\n- Option B: Set `images.*.entrypoint` option in your devspace.yaml\n- Option C: If you don't want to inject the restart helper, set `images.*.injectRestartHelper` to false","time":"2021-02-20T21:41:38+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:42:38+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:42:38+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:ETNivms (client)","time":"2021-02-20T21:43:12+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:pFYCBQv (nginx)","time":"2021-02-20T21:43:38+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:DLRtJCa (app)","time":"2021-02-20T21:43:39+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 4)","time":"2021-02-20T21:43:40+02:00"}
+{"level":"info","msg":"Successfully deployed server with helm","time":"2021-02-20T21:43:40+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 4)","time":"2021-02-20T21:43:41+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-20T21:43:41+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 1)","time":"2021-02-20T21:43:42+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T21:43:42+02:00"}
+{"level":"info","msg":"Successfully deployed!","time":"2021-02-20T21:43:42+02:00"}
+{"level":"info","msg":"\r         \nRun: \n- `\u001b[1;37mdevspace open\u001b[0m` to create an ingress for the app and open it in the browser \n- `\u001b[1;37mdevspace enter\u001b[0m` to open a shell into the container \n- `\u001b[1;37mdevspace logs\u001b[0m` to show the container logs\n- `\u001b[1;37mdevspace analyze\u001b[0m` to analyze the space for potential issues\n","time":"2021-02-20T21:43:42+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:45:39+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:45:39+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-client:cEqZTnk: cannot inject restart helper into Dockerfile because neither ENTRYPOINT nor CMD was found.\n\nHow to fix this:\n- Option A: Define an ENTRYPOINT (or CMD) in your Dockerfile\n- Option B: Set `images.*.entrypoint` option in your devspace.yaml\n- Option C: If you don't want to inject the restart helper, set `images.*.injectRestartHelper` to false","time":"2021-02-20T21:45:43+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:47:15+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:47:15+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:RSqtXcx (nginx)","time":"2021-02-20T21:47:35+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:NFSeAsk (app)","time":"2021-02-20T21:47:58+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:lLLikmX (client)","time":"2021-02-20T21:49:55+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 5)","time":"2021-02-20T21:49:56+02:00"}
+{"level":"info","msg":"Successfully deployed server with helm","time":"2021-02-20T21:49:56+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 5)","time":"2021-02-20T21:49:57+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-20T21:49:57+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 2)","time":"2021-02-20T21:49:58+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T21:49:58+02:00"}
+{"level":"info","msg":"Successfully deployed!","time":"2021-02-20T21:49:58+02:00"}
+{"level":"info","msg":"\r         \nRun: \n- `\u001b[1;37mdevspace open\u001b[0m` to create an ingress for the app and open it in the browser \n- `\u001b[1;37mdevspace enter\u001b[0m` to open a shell into the container \n- `\u001b[1;37mdevspace logs\u001b[0m` to show the container logs\n- `\u001b[1;37mdevspace analyze\u001b[0m` to analyze the space for potential issues\n","time":"2021-02-20T21:49:58+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:50:09+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:50:09+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:50:42+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:50:42+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:51:14+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:51:14+02:00"}
+{"level":"fatal","msg":"deployments[2].helm.componentChart: component values are incorrect: yaml: unmarshal errors:\n  line 6: field externalPort not found in type latest.ServicePortConfig","time":"2021-02-20T21:51:14+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:52:11+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:52:11+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:52:14+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:52:14+02:00"}
+{"level":"fatal","msg":"deployments[2].helm.componentChart: component values are incorrect: yaml: unmarshal errors:\n  line 6: field remotePort not found in type latest.ServicePortConfig","time":"2021-02-20T21:52:14+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:52:54+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:52:54+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:52:57+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:52:57+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:kFtYXaQ (nginx)","time":"2021-02-20T21:53:23+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:cCkcTxe (client)","time":"2021-02-20T21:53:35+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:aHpMrSB (app)","time":"2021-02-20T21:53:49+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 6)","time":"2021-02-20T21:53:50+02:00"}
+{"level":"info","msg":"Successfully deployed server with helm","time":"2021-02-20T21:53:50+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 6)","time":"2021-02-20T21:53:51+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-20T21:53:51+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 3)","time":"2021-02-20T21:53:52+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T21:53:52+02:00"}
+{"level":"info","msg":"Successfully deployed!","time":"2021-02-20T21:53:52+02:00"}
+{"level":"info","msg":"\r         \nRun: \n- `\u001b[1;37mdevspace open\u001b[0m` to create an ingress for the app and open it in the browser \n- `\u001b[1;37mdevspace enter\u001b[0m` to open a shell into the container \n- `\u001b[1;37mdevspace logs\u001b[0m` to show the container logs\n- `\u001b[1;37mdevspace analyze\u001b[0m` to analyze the space for potential issues\n","time":"2021-02-20T21:53:52+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:53:56+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:53:56+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:55:44+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:55:44+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:DgaSran (nginx)","time":"2021-02-20T21:56:06+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:XQlgOKW (app)","time":"2021-02-20T21:56:08+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:rrBmIed (client)","time":"2021-02-20T21:56:13+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 7)","time":"2021-02-20T21:56:14+02:00"}
+{"level":"info","msg":"Successfully deployed server with helm","time":"2021-02-20T21:56:14+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 7)","time":"2021-02-20T21:56:15+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-20T21:56:15+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 4)","time":"2021-02-20T21:56:16+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T21:56:16+02:00"}
+{"level":"info","msg":"Successfully deployed!","time":"2021-02-20T21:56:16+02:00"}
+{"level":"info","msg":"\r         \nRun: \n- `\u001b[1;37mdevspace open\u001b[0m` to create an ingress for the app and open it in the browser \n- `\u001b[1;37mdevspace enter\u001b[0m` to open a shell into the container \n- `\u001b[1;37mdevspace logs\u001b[0m` to show the container logs\n- `\u001b[1;37mdevspace analyze\u001b[0m` to analyze the space for potential issues\n","time":"2021-02-20T21:56:16+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T21:56:22+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T21:56:22+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:03:17+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:03:17+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:03:18+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:03:18+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:zpZjShc (nginx)","time":"2021-02-20T22:03:22+02:00"}
+{"level":"info","msg":"Skipping deployment server","time":"2021-02-20T22:03:22+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:03:22+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 5)","time":"2021-02-20T22:03:23+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T22:03:23+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/server-76485f44cf-7g4ch)","time":"2021-02-20T22:03:25+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:10:38+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:10:38+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:10:38+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:10:38+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-20T22:10:39+02:00"}
+{"level":"info","msg":"Skipping deployment server","time":"2021-02-20T22:10:40+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:10:40+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-20T22:10:40+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/server-76485f44cf-7g4ch)","time":"2021-02-20T22:10:42+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:13:28+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:13:28+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:13:29+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:vBFARhH (nginx)","time":"2021-02-20T22:13:37+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-client:zcmUBEs: COPY failed: stat /var/lib/docker/tmp/docker-builder896764953/client/default.conf: no such file or directory","time":"2021-02-20T22:13:43+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:14:01+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:14:01+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:14:01+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:wqdfMiC (nginx)","time":"2021-02-20T22:14:10+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-client:puDugvx: COPY failed: stat /var/lib/docker/tmp/docker-builder142506589/default.conf: no such file or directory","time":"2021-02-20T22:14:16+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:14:26+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:14:26+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:14:27+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:bsosTKj (nginx)","time":"2021-02-20T22:14:35+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-client:ARioxJb: COPY failed: stat /var/lib/docker/tmp/docker-builder165957958/default.conf: no such file or directory","time":"2021-02-20T22:14:41+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:16:20+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:16:20+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:16:21+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-20T22:16:22+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:mDlhTat (client)","time":"2021-02-20T22:16:34+02:00"}
+{"level":"info","msg":"Skipping deployment server","time":"2021-02-20T22:16:34+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 8)","time":"2021-02-20T22:16:35+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-20T22:16:35+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-20T22:16:35+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/server-76485f44cf-7g4ch)","time":"2021-02-20T22:16:37+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-75fc57f7f-rmmch)","time":"2021-02-20T22:17:05+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:19:30+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:19:30+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:19:30+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:19:31+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-20T22:19:32+02:00"}
+{"level":"info","msg":"Skipping deployment server","time":"2021-02-20T22:19:32+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:19:32+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-20T22:19:32+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/server-76485f44cf-7g4ch)","time":"2021-02-20T22:19:34+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:24:10+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:24:10+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:24:10+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:24:10+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:luCBnIS (nginx)","time":"2021-02-20T22:24:17+02:00"}
+{"level":"info","msg":"Skipping deployment server","time":"2021-02-20T22:24:18+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:24:18+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 6)","time":"2021-02-20T22:24:19+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T22:24:19+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/server-76485f44cf-7g4ch)","time":"2021-02-20T22:24:21+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:24:44+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:24:44+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:24:44+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:24:45+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:VZXCAgr (nginx)","time":"2021-02-20T22:24:53+02:00"}
+{"level":"info","msg":"Skipping deployment server","time":"2021-02-20T22:24:54+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:24:54+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 7)","time":"2021-02-20T22:24:55+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T22:24:55+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/server-76485f44cf-7g4ch)","time":"2021-02-20T22:24:57+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:27:21+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:27:21+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:27:22+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:27:22+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:WQJnLjs (nginx)","time":"2021-02-20T22:27:30+02:00"}
+{"level":"info","msg":"Skipping deployment server","time":"2021-02-20T22:27:30+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:27:30+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 8)","time":"2021-02-20T22:27:31+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T22:27:31+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/server-76485f44cf-7g4ch)","time":"2021-02-20T22:27:33+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:28:24+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:28:24+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:28:24+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:28:25+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:AXeVsQi (nginx)","time":"2021-02-20T22:28:30+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 1)","time":"2021-02-20T22:28:31+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-20T22:28:31+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:28:31+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 9)","time":"2021-02-20T22:28:32+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T22:28:32+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-5b74ccd66-k59b8)","time":"2021-02-20T22:28:34+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-75fc57f7f-rmmch)","time":"2021-02-20T22:32:35+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-595597bcfd-wb2qq)","time":"2021-02-20T22:32:37+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-20T22:32:37+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/api-5b74ccd66-k59b8)","time":"2021-02-20T22:32:40+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/client-75fc57f7f-rmmch)","time":"2021-02-20T22:32:43+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-20T22:32:43+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-20T22:32:43+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:41:05+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:41:05+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:41:05+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:41:05+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-20T22:41:07+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-20T22:41:07+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:41:07+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-20T22:41:07+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-5b74ccd66-k59b8)","time":"2021-02-20T22:41:09+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-75fc57f7f-rmmch)","time":"2021-02-20T22:41:11+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-595597bcfd-wb2qq)","time":"2021-02-20T22:41:13+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-20T22:41:13+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/api-5b74ccd66-k59b8)","time":"2021-02-20T22:41:15+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/client-75fc57f7f-rmmch)","time":"2021-02-20T22:41:17+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-20T22:41:17+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-20T22:41:17+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:42:49+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:42:49+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:knSSCvh (app)","time":"2021-02-20T22:43:09+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:qfrYeMa (nginx)","time":"2021-02-20T22:43:12+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:DnJXZjw (client)","time":"2021-02-20T22:43:20+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 2)","time":"2021-02-20T22:43:21+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-20T22:43:21+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 9)","time":"2021-02-20T22:43:22+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-20T22:43:22+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 10)","time":"2021-02-20T22:43:23+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T22:43:23+02:00"}
+{"level":"info","msg":"Successfully deployed!","time":"2021-02-20T22:43:23+02:00"}
+{"level":"info","msg":"\r         \nRun: \n- `\u001b[1;37mdevspace open\u001b[0m` to create an ingress for the app and open it in the browser \n- `\u001b[1;37mdevspace enter\u001b[0m` to open a shell into the container \n- `\u001b[1;37mdevspace logs\u001b[0m` to show the container logs\n- `\u001b[1;37mdevspace analyze\u001b[0m` to analyze the space for potential issues\n","time":"2021-02-20T22:43:23+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:43:27+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:43:27+02:00"}
+{"level":"info","msg":"Port forwarding started on 3050:3050 (default/nginx-6f6cc5559b-ndxjt)","time":"2021-02-20T22:43:36+02:00"}
+{"level":"info","msg":"Successfully opened http://localhost:3050","time":"2021-02-20T22:43:38+02:00"}
+{"level":"info","msg":"Press ENTER to terminate port-forwarding process","time":"2021-02-20T22:43:38+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:43:50+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:43:50+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:43:51+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:43:51+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-20T22:43:52+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-20T22:43:52+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:43:52+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-20T22:43:53+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-7d74cd88cf-2mgpg)","time":"2021-02-20T22:43:55+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-797b648b7d-755j9)","time":"2021-02-20T22:43:57+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-6f6cc5559b-ndxjt)","time":"2021-02-20T22:43:59+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-20T22:43:59+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/api-7d74cd88cf-2mgpg)","time":"2021-02-20T22:44:01+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/client-797b648b7d-755j9)","time":"2021-02-20T22:44:04+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-20T22:44:04+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-20T22:44:04+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:49:04+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:49:04+02:00"}
+{"level":"fatal","msg":"convert config: Error loading config: yaml: unmarshal errors:\n  line 69: field containerPath not found in type latest.ImageConfig","time":"2021-02-20T22:49:04+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:49:50+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:49:50+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:49:51+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:49:51+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:lqPPhcd (nginx)","time":"2021-02-20T22:49:56+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-20T22:49:56+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:49:56+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 11)","time":"2021-02-20T22:49:58+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T22:49:58+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-7d74cd88cf-2mgpg)","time":"2021-02-20T22:50:00+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-797b648b7d-755j9)","time":"2021-02-20T22:50:02+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-65db4f4487-pzqcv)","time":"2021-02-20T22:50:11+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-20T22:50:11+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/api-7d74cd88cf-2mgpg)","time":"2021-02-20T22:50:13+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e /app/dist (Pod: default/client-797b648b7d-755j9)","time":"2021-02-20T22:50:15+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-20T22:50:15+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-20T22:50:15+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:50:58+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:50:58+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:50:59+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:51:00+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:faTCQXg (nginx)","time":"2021-02-20T22:51:03+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-20T22:51:03+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:51:03+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 12)","time":"2021-02-20T22:51:04+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T22:51:04+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-7d74cd88cf-2mgpg)","time":"2021-02-20T22:51:06+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-797b648b7d-755j9)","time":"2021-02-20T22:51:08+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-8c9669d59-w44nb)","time":"2021-02-20T22:51:11+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-20T22:51:11+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/api-7d74cd88cf-2mgpg)","time":"2021-02-20T22:51:13+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e /app/dist (Pod: default/client-797b648b7d-755j9)","time":"2021-02-20T22:51:15+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-20T22:51:15+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-20T22:51:15+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:51:43+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:51:43+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:51:44+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:51:44+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:biuLjpj (nginx)","time":"2021-02-20T22:51:49+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-20T22:51:49+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:51:50+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 13)","time":"2021-02-20T22:51:51+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-20T22:51:51+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-7d74cd88cf-2mgpg)","time":"2021-02-20T22:51:53+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-797b648b7d-755j9)","time":"2021-02-20T22:51:55+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-9d9f8c9fc-5fdh6)","time":"2021-02-20T22:51:57+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-20T22:51:57+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/api-7d74cd88cf-2mgpg)","time":"2021-02-20T22:51:59+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e /app/dist (Pod: default/client-797b648b7d-755j9)","time":"2021-02-20T22:52:01+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-20T22:52:01+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-20T22:52:01+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-20T22:53:49+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-20T22:53:49+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-20T22:53:49+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-20T22:53:49+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-20T22:53:51+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-20T22:53:51+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-20T22:53:51+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-20T22:53:51+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-7d74cd88cf-2mgpg)","time":"2021-02-20T22:53:53+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-797b648b7d-755j9)","time":"2021-02-20T22:53:55+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-9d9f8c9fc-5fdh6)","time":"2021-02-20T22:53:57+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-20T22:53:57+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/api-7d74cd88cf-2mgpg)","time":"2021-02-20T22:53:59+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e /app/dist (Pod: default/client-797b648b7d-755j9)","time":"2021-02-20T22:54:02+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-20T22:54:02+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-20T22:54:02+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:04:27+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:04:27+02:00"}
+{"level":"info","msg":"Created namespace: default","time":"2021-02-21T09:04:27+02:00"}
+{"level":"warning","msg":"failed to create pull secret for registry: create pull secret: Unable to create image pull secret: Post \"https://127.0.0.1:32771/api/v1/namespaces/default/secrets\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T09:04:27+02:00"}
+{"level":"warning","msg":"Error creating minikube docker client: can't retrieve minikube docker environment due to error: error executing 'minikube docker-env --shell none'\nerror: exit status 69\noutput: ","time":"2021-02-21T09:04:27+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:05:15+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:05:15+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T09:05:16+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T09:05:16+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T09:05:19+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T09:05:19+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T09:05:19+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T09:05:20+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-7d74cd88cf-2mgpg)","time":"2021-02-21T09:05:22+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-797b648b7d-755j9)","time":"2021-02-21T09:05:31+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-9d9f8c9fc-5fdh6)","time":"2021-02-21T09:05:57+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T09:05:57+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/api-7d74cd88cf-2mgpg)","time":"2021-02-21T09:05:59+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e /app/dist (Pod: default/client-797b648b7d-755j9)","time":"2021-02-21T09:06:02+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T09:06:02+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T09:06:02+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:09:16+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:09:16+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T09:09:16+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T09:09:16+02:00"}
+{"level":"fatal","msg":"error during shouldRebuild check: Dockerfile ./Dockerfile missing: stat ./Dockerfile: no such file or directory","time":"2021-02-21T09:09:17+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:18:03+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:18:03+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:18:06+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:UUJeSVe (app)","time":"2021-02-21T09:18:13+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:mSDATrA (nginx)","time":"2021-02-21T09:18:16+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:ktwTYYM (client)","time":"2021-02-21T09:18:25+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 1)","time":"2021-02-21T09:18:26+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T09:18:26+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 3)","time":"2021-02-21T09:18:27+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T09:18:27+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 10)","time":"2021-02-21T09:18:28+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T09:18:28+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 14)","time":"2021-02-21T09:18:29+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T09:18:29+02:00"}
+{"level":"info","msg":"Successfully deployed!","time":"2021-02-21T09:18:29+02:00"}
+{"level":"info","msg":"\r         \nRun: \n- `\u001b[1;37mdevspace open\u001b[0m` to create an ingress for the app and open it in the browser \n- `\u001b[1;37mdevspace enter\u001b[0m` to open a shell into the container \n- `\u001b[1;37mdevspace logs\u001b[0m` to show the container logs\n- `\u001b[1;37mdevspace analyze\u001b[0m` to analyze the space for potential issues\n","time":"2021-02-21T09:18:29+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:19:02+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:19:02+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T09:19:02+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T09:19:02+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:19:02+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T09:19:04+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T09:19:04+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T09:19:04+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T09:19:04+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T09:19:04+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-55b7c9b579-25wmh)","time":"2021-02-21T09:19:06+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-6f96cbb4f8-zvw7c)","time":"2021-02-21T09:19:08+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-5448d74b65-g6f98)","time":"2021-02-21T09:19:10+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T09:19:10+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/api-55b7c9b579-25wmh)","time":"2021-02-21T09:19:13+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e /app/dist (Pod: default/client-6f96cbb4f8-zvw7c)","time":"2021-02-21T09:19:15+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T09:19:15+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T09:19:15+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:21:12+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:21:12+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T09:21:12+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T09:21:12+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:21:12+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:eVBFWFp (nginx)","time":"2021-02-21T09:21:18+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T09:21:18+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T09:21:18+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T09:21:19+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 15)","time":"2021-02-21T09:21:19+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T09:21:19+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-55b7c9b579-25wmh)","time":"2021-02-21T09:21:21+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-6f96cbb4f8-zvw7c)","time":"2021-02-21T09:21:23+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-79688cc8c5-5cwnd)","time":"2021-02-21T09:21:29+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T09:21:29+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e . (Pod: default/api-55b7c9b579-25wmh)","time":"2021-02-21T09:21:32+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e ./client/dist (Pod: default/client-6f96cbb4f8-zvw7c)","time":"2021-02-21T09:21:34+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T09:21:34+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T09:21:34+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:24:37+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:24:37+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:24:37+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T09:24:39+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T09:24:39+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:jKiXHIy (nginx)","time":"2021-02-21T09:24:43+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T09:24:43+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T09:24:43+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T09:24:43+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 16)","time":"2021-02-21T09:24:44+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T09:24:44+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-55b7c9b579-25wmh)","time":"2021-02-21T09:24:46+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-6f96cbb4f8-zvw7c)","time":"2021-02-21T09:24:48+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-7c7bc5cbd9-mvrxt)","time":"2021-02-21T09:24:50+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T09:24:50+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e /app (Pod: default/api-55b7c9b579-25wmh)","time":"2021-02-21T09:24:52+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e /app/dist (Pod: default/client-6f96cbb4f8-zvw7c)","time":"2021-02-21T09:24:54+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T09:24:54+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T09:24:54+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:27:14+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:XjOCRzO (app)","time":"2021-02-21T09:27:41+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:qDDJTBY (nginx)","time":"2021-02-21T09:27:46+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:bDOwPSG (client)","time":"2021-02-21T09:27:53+02:00"}
+{"level":"info","msg":"Successfully built 3 images","time":"2021-02-21T09:27:53+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:28:04+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:28:04+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T09:28:04+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T09:28:04+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:28:04+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T09:28:05+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T09:28:05+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T09:28:06+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T09:28:06+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T09:28:06+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:29:53+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:29:53+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:29:53+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T09:29:55+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T09:29:55+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T09:29:55+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T09:29:55+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T09:29:55+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T09:29:55+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T09:29:56+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T09:37:39+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T09:37:40+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:37:40+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T09:37:41+02:00"}
+{"level":"info","msg":"No images to rebuild. Run with -b to force rebuilding","time":"2021-02-21T09:37:41+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:37:49+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:dokKdzY (app)","time":"2021-02-21T09:38:27+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:eZDNkeo (nginx)","time":"2021-02-21T09:38:28+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:PtMlSpT (client)","time":"2021-02-21T09:38:35+02:00"}
+{"level":"info","msg":"Successfully built 3 images","time":"2021-02-21T09:38:35+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:38:52+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:38:52+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:38:52+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T09:38:54+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T09:38:54+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T09:38:54+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T09:38:54+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T09:38:54+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T09:38:55+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T09:38:55+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:47:35+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:47:35+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T09:47:36+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T09:47:36+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:47:36+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:WrzaSRe (nginx)","time":"2021-02-21T09:47:42+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T09:47:42+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 4)","time":"2021-02-21T09:47:42+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T09:47:42+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T09:47:42+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 17)","time":"2021-02-21T09:47:43+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T09:47:43+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-67bb6d675f-wx8tt)","time":"2021-02-21T09:48:00+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T09:51:54+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T09:51:54+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T09:51:54+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T09:51:55+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T09:51:55+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:jUrvOoE (nginx)","time":"2021-02-21T09:52:00+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 2)","time":"2021-02-21T09:52:01+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T09:52:01+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T09:52:01+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T09:52:01+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 18)","time":"2021-02-21T09:52:02+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T09:52:02+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-67bb6d675f-wx8tt)","time":"2021-02-21T09:52:04+02:00"}
+{"level":"fatal","msg":"Unable to start portforwarding: Error selecting pod: timeout: couldn't find a pod / container in time with image selector: teonapster/todo-client:PtMlSpT","time":"2021-02-21T10:02:04+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T10:18:57+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T10:18:57+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T10:18:58+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T10:18:59+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:FhDSKfT (nginx)","time":"2021-02-21T10:19:05+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:GsTJFkW (client)","time":"2021-02-21T10:19:13+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T10:19:13+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T10:19:13+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 11)","time":"2021-02-21T10:19:14+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T10:19:14+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 19)","time":"2021-02-21T10:19:15+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T10:19:15+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-67bb6d675f-wx8tt)","time":"2021-02-21T10:19:17+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T10:19:19+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-ccc69dd6c-6c2hg)","time":"2021-02-21T10:19:30+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8091\u001b[0m","time":"2021-02-21T10:19:30+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/server \u003c-\u003e /app (Pod: default/api-67bb6d675f-wx8tt)","time":"2021-02-21T10:19:33+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T10:19:36+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T10:19:36+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T10:19:36+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T10:24:00+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T10:24:00+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T10:24:01+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T10:24:02+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T10:24:02+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T10:24:02+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T10:24:02+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T10:24:03+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T10:24:03+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T10:24:03+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-67bb6d675f-wx8tt)","time":"2021-02-21T10:24:05+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T10:24:07+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-ccc69dd6c-6c2hg)","time":"2021-02-21T10:24:09+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8091\u001b[0m","time":"2021-02-21T10:24:09+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/server \u003c-\u003e /app (Pod: default/api-67bb6d675f-wx8tt)","time":"2021-02-21T10:24:11+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T10:24:13+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T10:24:13+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T10:24:13+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T10:27:33+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T10:27:33+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T10:27:33+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T10:27:35+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:FDSbObO (nginx)","time":"2021-02-21T10:27:42+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:kRCzkmc (app)","time":"2021-02-21T10:27:44+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T10:27:44+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 5)","time":"2021-02-21T10:27:45+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T10:27:45+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T10:27:45+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 20)","time":"2021-02-21T10:27:46+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T10:27:46+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-59fd64759d-zc9v8)","time":"2021-02-21T10:27:53+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T10:27:55+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-756f9595d4-r6jpp)","time":"2021-02-21T10:27:57+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8091\u001b[0m","time":"2021-02-21T10:27:57+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/server \u003c-\u003e /app (Pod: default/api-59fd64759d-zc9v8)","time":"2021-02-21T10:28:00+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T10:28:02+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T10:28:02+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T10:28:02+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T10:33:11+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T10:33:11+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T10:33:12+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T10:33:12+02:00"}
+{"level":"fatal","msg":"error building image teonapster/todo-api:acPVVZd: cannot inject restart helper into Dockerfile because neither ENTRYPOINT nor CMD was found.\n\nHow to fix this:\n- Option A: Define an ENTRYPOINT (or CMD) in your Dockerfile\n- Option B: Set `images.*.entrypoint` option in your devspace.yaml\n- Option C: If you don't want to inject the restart helper, set `images.*.injectRestartHelper` to false","time":"2021-02-21T10:33:13+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T10:39:18+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T10:39:18+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T10:39:18+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T10:39:20+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:ZZjkkIg (nginx)","time":"2021-02-21T10:39:29+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:kTOIooN (app)","time":"2021-02-21T10:39:29+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T10:39:29+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 6)","time":"2021-02-21T10:39:30+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T10:39:30+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T10:39:30+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 21)","time":"2021-02-21T10:39:31+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T10:39:31+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-cbcbffd66-xql69)","time":"2021-02-21T10:39:50+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T10:39:53+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-f864cf59c-2r969)","time":"2021-02-21T10:39:55+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8091\u001b[0m","time":"2021-02-21T10:39:55+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/server \u003c-\u003e /app (Pod: default/api-cbcbffd66-xql69)","time":"2021-02-21T10:39:57+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T10:39:59+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T10:39:59+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T10:39:59+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T10:42:23+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T10:42:23+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T10:42:24+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T10:42:24+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:SHqpWGh (app)","time":"2021-02-21T10:42:30+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:jHJasLz (nginx)","time":"2021-02-21T10:42:31+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T10:42:32+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 7)","time":"2021-02-21T10:42:33+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T10:42:33+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T10:42:33+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 22)","time":"2021-02-21T10:42:34+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T10:42:34+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-86d8b4bbc5-bgwpv)","time":"2021-02-21T10:42:51+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T10:42:53+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-747c6d66dc-phzg7)","time":"2021-02-21T10:42:55+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8091\u001b[0m","time":"2021-02-21T10:42:55+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/server \u003c-\u003e /app (Pod: default/api-86d8b4bbc5-bgwpv)","time":"2021-02-21T10:42:57+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T10:42:59+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T10:42:59+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T10:42:59+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T15:35:49+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T15:35:49+02:00"}
+{"level":"info","msg":"Created namespace: default","time":"2021-02-21T15:35:49+02:00"}
+{"level":"warning","msg":"failed to create pull secret for registry: create pull secret: Unable to create image pull secret: Post \"https://127.0.0.1:32768/api/v1/namespaces/default/secrets\": dial tcp 127.0.0.1:32768: connect: connection refused","time":"2021-02-21T15:35:50+02:00"}
+{"level":"warning","msg":"Error creating minikube docker client: can't retrieve minikube docker environment due to error: error executing 'minikube docker-env --shell none'\nerror: exit status 69\noutput: ","time":"2021-02-21T15:35:50+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T15:35:50+02:00"}
+{"level":"warning","msg":"Error creating minikube docker client: can't retrieve minikube docker environment due to error: error executing 'minikube docker-env --shell none'\nerror: exit status 69\noutput: ","time":"2021-02-21T15:35:50+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T15:35:50+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T15:35:50+02:00"}
+{"level":"warning","msg":"Error creating minikube docker client: can't retrieve minikube docker environment due to error: error executing 'minikube docker-env --shell none'\nerror: exit status 69\noutput: ","time":"2021-02-21T15:35:50+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T15:36:04+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T15:36:17+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T15:36:18+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T15:36:18+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T15:36:18+02:00"}
+{"level":"fatal","msg":"Error forwarding ports: error upgrading connection: unable to upgrade connection: pod does not exist","time":"2021-02-21T15:36:20+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T15:36:33+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T15:36:33+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T15:36:34+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T15:36:34+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T15:36:34+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T15:36:36+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T15:36:36+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T15:36:36+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T15:36:36+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T15:36:36+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-86d8b4bbc5-bgwpv)","time":"2021-02-21T15:36:38+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T15:36:40+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-747c6d66dc-phzg7)","time":"2021-02-21T15:37:16+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T15:37:16+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/server \u003c-\u003e /app (Pod: default/api-86d8b4bbc5-bgwpv)","time":"2021-02-21T15:37:18+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T15:37:21+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T15:37:21+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T15:37:21+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T15:39:58+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T15:39:58+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T15:39:58+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T15:39:59+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T15:39:59+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:PwtTGMQ (nginx)","time":"2021-02-21T15:40:04+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T15:40:04+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T15:40:04+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T15:40:04+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 23)","time":"2021-02-21T15:40:05+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T15:40:05+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-86d8b4bbc5-bgwpv)","time":"2021-02-21T15:40:08+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T15:40:10+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-866b4c58f7-jcmzv)","time":"2021-02-21T15:40:15+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T15:40:15+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/server \u003c-\u003e /app (Pod: default/api-86d8b4bbc5-bgwpv)","time":"2021-02-21T15:40:17+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T15:40:19+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T15:40:19+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T15:40:19+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T15:55:13+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T15:55:13+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T15:55:14+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T15:55:14+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T15:55:14+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:cJCOEpt (nginx)","time":"2021-02-21T15:55:14+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T15:55:14+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T15:55:14+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T15:55:15+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 24)","time":"2021-02-21T15:55:15+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T15:55:15+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-86d8b4bbc5-bgwpv)","time":"2021-02-21T15:55:18+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T15:55:20+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-55996cc695-7vflh)","time":"2021-02-21T15:55:22+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T15:55:22+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/server \u003c-\u003e /app (Pod: default/api-86d8b4bbc5-bgwpv)","time":"2021-02-21T15:55:24+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T15:55:26+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T15:55:26+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T15:55:26+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T15:58:02+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T15:58:02+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T15:58:02+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T15:58:02+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T15:58:03+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:QETNDjq (app)","time":"2021-02-21T15:58:03+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T15:58:03+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 8)","time":"2021-02-21T15:58:04+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T15:58:04+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T15:58:04+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T15:58:05+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-5f8f888974-lmzts)","time":"2021-02-21T15:58:24+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T15:58:26+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-55996cc695-7vflh)","time":"2021-02-21T15:58:28+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T15:58:28+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e /app (Pod: default/api-5f8f888974-lmzts)","time":"2021-02-21T15:58:30+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T15:58:32+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T15:58:32+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T15:58:32+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T16:09:22+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T16:09:22+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T16:09:22+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T16:09:22+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:LCXoTXb (nginx)","time":"2021-02-21T16:09:23+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:NPodOdS (app)","time":"2021-02-21T16:09:25+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T16:09:25+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 9)","time":"2021-02-21T16:09:26+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T16:09:26+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T16:09:26+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 25)","time":"2021-02-21T16:09:27+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T16:09:27+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-569dd59684-rkgch)","time":"2021-02-21T16:09:43+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T16:09:45+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-864d8f896c-cl76t)","time":"2021-02-21T16:09:47+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T16:09:47+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app \u003c-\u003e /app (Pod: default/api-569dd59684-rkgch)","time":"2021-02-21T16:09:50+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T16:09:52+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T16:09:52+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T16:09:52+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T16:30:42+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T16:30:42+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T16:30:42+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T16:30:43+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T16:30:43+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T16:30:43+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T16:30:43+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T16:30:43+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T16:30:43+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T16:30:43+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-569dd59684-rkgch)","time":"2021-02-21T16:30:46+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T16:30:48+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-864d8f896c-cl76t)","time":"2021-02-21T16:30:50+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T16:30:50+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/server \u003c-\u003e /app (Pod: default/api-569dd59684-rkgch)","time":"2021-02-21T16:30:52+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T16:30:54+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T16:30:54+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T16:30:54+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T16:34:35+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T16:34:35+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T16:34:35+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T16:34:35+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T16:34:35+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T16:34:35+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T16:34:36+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T16:34:36+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T16:34:36+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T16:34:36+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-569dd59684-rkgch)","time":"2021-02-21T16:34:38+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T16:34:40+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-864d8f896c-cl76t)","time":"2021-02-21T16:34:42+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T16:34:42+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/server \u003c-\u003e /app (Pod: default/api-569dd59684-rkgch)","time":"2021-02-21T16:34:44+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T16:34:47+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T16:34:47+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T16:34:47+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T16:36:35+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T16:36:35+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T16:36:36+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T16:36:36+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:zUoMpjv (nginx)","time":"2021-02-21T16:36:37+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:KkgoBpg (app)","time":"2021-02-21T16:36:49+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T16:36:49+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 10)","time":"2021-02-21T16:36:50+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T16:36:50+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T16:36:50+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 26)","time":"2021-02-21T16:36:51+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T16:36:51+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-db84d6df6-bkdgh)","time":"2021-02-21T16:37:04+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T16:37:06+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-689cdf7f5b-8jtfb)","time":"2021-02-21T16:37:08+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T16:37:08+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/server \u003c-\u003e /app (Pod: default/api-db84d6df6-bkdgh)","time":"2021-02-21T16:37:11+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T16:37:13+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T16:37:13+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T16:37:13+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T16:53:04+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T16:53:04+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T16:53:04+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T16:53:06+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:wGebWPY (nginx)","time":"2021-02-21T16:53:17+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:cYGSZVs (app)","time":"2021-02-21T16:53:20+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T16:53:21+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 11)","time":"2021-02-21T16:53:22+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T16:53:22+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T16:53:22+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 27)","time":"2021-02-21T16:53:23+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T16:53:23+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-dc5bfb7dd-rv2r2)","time":"2021-02-21T16:53:34+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T16:53:36+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-5bd5bc5d7d-lx76b)","time":"2021-02-21T16:53:38+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T16:53:38+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T16:53:40+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T16:53:40+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T16:53:40+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:04:42+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:04:42+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:04:43+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:04:43+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:04:43+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:04:44+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T17:04:44+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T17:04:44+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:04:45+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T17:04:45+02:00"}
+{"level":"info","msg":"Port forwarding started on 3050:3050 (default/nginx-5bd5bc5d7d-lx76b)","time":"2021-02-21T17:04:47+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:04:47+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:04:49+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:04:49+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:04:49+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:15:24+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:15:24+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:15:26+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:15:26+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:15:26+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:15:27+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T17:15:27+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T17:15:27+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:15:27+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T17:15:28+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-dc5bfb7dd-rv2r2)","time":"2021-02-21T17:15:30+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:15:32+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:3050 (default/nginx-5bd5bc5d7d-lx76b)","time":"2021-02-21T17:15:34+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:15:34+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:15:36+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:15:36+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:15:36+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:16:04+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:16:04+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:16:05+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:16:06+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:16:06+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:16:07+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T17:16:07+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T17:16:07+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:16:08+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T17:16:08+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-dc5bfb7dd-rv2r2)","time":"2021-02-21T17:16:10+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:16:12+02:00"}
+{"level":"info","msg":"Port forwarding started on 3050:3050 (default/nginx-5bd5bc5d7d-lx76b)","time":"2021-02-21T17:16:14+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:16:14+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:16:16+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:16:16+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:16:16+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:25:12+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:25:12+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:25:14+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:25:14+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:25:14+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:25:15+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T17:25:15+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T17:25:15+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:25:15+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 28)","time":"2021-02-21T17:25:16+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T17:25:16+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-dc5bfb7dd-rv2r2)","time":"2021-02-21T17:25:18+02:00"}
+{"level":"info","msg":"Port forwarding started on 4200:4200 (default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:25:20+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-5bd5bc5d7d-lx76b)","time":"2021-02-21T17:25:22+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:25:22+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:25:25+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:25:25+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:25:25+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:25:59+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:25:59+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:26:00+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:26:01+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:26:02+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:26:02+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T17:26:02+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T17:26:02+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:26:02+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T17:26:02+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-5bd5bc5d7d-lx76b)","time":"2021-02-21T17:26:04+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:26:04+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:26:06+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:26:06+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:26:06+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:27:45+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:27:45+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:27:46+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:27:48+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:27:48+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:27:48+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T17:27:48+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T17:27:48+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:27:48+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T17:27:48+02:00"}
+{"level":"info","msg":"Port forwarding started on 5000:5000 (default/api-dc5bfb7dd-rv2r2)","time":"2021-02-21T17:27:51+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-5bd5bc5d7d-lx76b)","time":"2021-02-21T17:27:53+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:27:53+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:27:55+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:27:55+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:27:55+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:34:50+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:34:50+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:34:52+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:34:53+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:34:53+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:34:53+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T17:34:53+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T17:34:53+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:34:53+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T17:34:53+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-5bd5bc5d7d-lx76b)","time":"2021-02-21T17:34:56+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:34:56+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:34:58+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:34:58+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:34:58+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:37:39+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:37:39+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:37:41+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:37:41+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:nokbpPM (nginx)","time":"2021-02-21T17:37:49+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:KBXOdAX (app)","time":"2021-02-21T17:37:51+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T17:37:51+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 12)","time":"2021-02-21T17:37:52+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T17:37:52+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:37:52+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 29)","time":"2021-02-21T17:37:53+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T17:37:53+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-86bb9b5f78-prpgj)","time":"2021-02-21T17:38:04+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:38:04+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:38:06+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:38:06+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:38:06+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:40:32+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:40:32+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:40:33+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:40:33+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:SdHRkLn (nginx)","time":"2021-02-21T17:40:41+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:pLRqAeo (app)","time":"2021-02-21T17:40:43+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T17:40:43+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 13)","time":"2021-02-21T17:40:44+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T17:40:44+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:40:44+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 30)","time":"2021-02-21T17:40:45+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T17:40:45+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-cf9d58c89-9v7d8)","time":"2021-02-21T17:40:54+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:40:54+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:40:56+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:40:56+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:40:56+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:44:20+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:44:20+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:44:21+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:44:22+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:44:22+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:44:23+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 3)","time":"2021-02-21T17:44:24+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T17:44:24+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 14)","time":"2021-02-21T17:44:25+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T17:44:25+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:44:25+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T17:44:25+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-cf9d58c89-9v7d8)","time":"2021-02-21T17:44:27+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:44:27+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:44:29+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:44:29+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:44:29+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:45:47+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:45:47+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:45:47+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:45:47+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:RQXxmiQ (nginx)","time":"2021-02-21T17:45:57+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:NmCCIxJ (app)","time":"2021-02-21T17:46:00+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T17:46:01+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 15)","time":"2021-02-21T17:46:02+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T17:46:02+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:46:02+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 31)","time":"2021-02-21T17:46:03+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T17:46:03+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-7b57bc6bff-p87zp)","time":"2021-02-21T17:46:15+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:46:15+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:46:17+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:46:17+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:46:17+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:46:59+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:46:59+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:47:00+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:47:00+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:QIfDgBP (nginx)","time":"2021-02-21T17:47:10+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:GFjGssM (app)","time":"2021-02-21T17:47:12+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T17:47:12+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 16)","time":"2021-02-21T17:47:14+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T17:47:14+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:47:14+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 32)","time":"2021-02-21T17:47:15+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T17:47:15+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-67576788bd-qktq4)","time":"2021-02-21T17:47:20+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:47:20+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:47:22+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:47:22+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:47:22+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:49:05+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:49:05+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:49:07+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:49:07+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:49:07+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:49:08+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 4)","time":"2021-02-21T17:49:09+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T17:49:09+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T17:49:09+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:49:09+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T17:49:09+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-67576788bd-qktq4)","time":"2021-02-21T17:49:12+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:49:12+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-7d5dcb6d77-c4fz7)","time":"2021-02-21T17:49:14+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T17:49:14+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T17:49:14+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:51:07+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:51:07+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:51:09+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:51:09+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:51:09+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:51:10+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 5)","time":"2021-02-21T17:51:11+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T17:51:11+02:00"}
+{"level":"fatal","msg":"error deploying: Error deploying api: Unable to deploy helm chart: error during '/home/teonapster/.devspace/bin/helm upgrade api /home/teonapster/.devspace/component-chart/component-chart-0.7.1.tgz --namespace default --values /tmp/431898345 --install --kube-context minikube': Error: UPGRADE FAILED: cannot patch \"api\" with kind Deployment:  \"\" is invalid: patch: Invalid value: \"{\\\"apiVersion\\\":\\\"apps/v1\\\",\\\"kind\\\":\\\"Deployment\\\",\\\"metadata\\\":{\\\"annotations\\\":{\\\"deployment.kubernetes.io/revision\\\":\\\"16\\\",\\\"helm.sh/chart\\\":\\\"component-chart-0.7.1\\\",\\\"meta.helm.sh/release-name\\\":\\\"api\\\",\\\"meta.helm.sh/release-namespace\\\":\\\"default\\\"},\\\"creationTimestamp\\\":\\\"2021-02-20T20:28:31Z\\\",\\\"generation\\\":16,\\\"labels\\\":{\\\"app.kubernetes.io/component\\\":\\\"api\\\",\\\"app.kubernetes.io/managed-by\\\":\\\"Helm\\\",\\\"app.kubernetes.io/name\\\":\\\"devspace-app\\\"},\\\"managedFields\\\":[{\\\"manager\\\":\\\"Go-http-client\\\",\\\"operation\\\":\\\"Update\\\",\\\"apiVersion\\\":\\\"apps/v1\\\",\\\"time\\\":\\\"2021-02-21T15:47:14Z\\\",\\\"fieldsType\\\":\\\"FieldsV1\\\",\\\"fieldsV1\\\":{\\\"f:metadata\\\":{\\\"f:annotations\\\":{\\\".\\\":{},\\\"f:helm.sh/chart\\\":{},\\\"f:meta.helm.sh/release-name\\\":{},\\\"f:meta.helm.sh/release-namespace\\\":{}},\\\"f:labels\\\":{\\\".\\\":{},\\\"f:app.kubernetes.io/component\\\":{},\\\"f:app.kubernetes.io/managed-by\\\":{},\\\"f:app.kubernetes.io/name\\\":{}}},\\\"f:spec\\\":{\\\"f:progressDeadlineSeconds\\\":{},\\\"f:replicas\\\":{},\\\"f:revisionHistoryLimit\\\":{},\\\"f:selector\\\":{\\\"f:matchLabels\\\":{\\\".\\\":{},\\\"f:app.kubernetes.io/component\\\":{},\\\"f:app.kubernetes.io/managed-by\\\":{},\\\"f:app.kubernetes.io/name\\\":{}}},\\\"f:strategy\\\":{\\\"f:type\\\":{}},\\\"f:template\\\":{\\\"f:metadata\\\":{\\\"f:annotations\\\":{\\\".\\\":{},\\\"f:helm.sh/chart\\\":{}},\\\"f:labels\\\":{\\\".\\\":{},\\\"f:app.kubernetes.io/component\\\":{},\\\"f:app.kubernetes.io/managed-by\\\":{},\\\"f:app.kubernetes.io/name\\\":{}}},\\\"f:spec\\\":{\\\"f:containers\\\":{\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"container-0\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:env\\\":{\\\".\\\":{},\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"PGDATABASE\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:name\\\":{},\\\"f:value\\\":{}},\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"PGHOST\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:name\\\":{},\\\"f:value\\\":{}},\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"PGPASSWORD\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:name\\\":{},\\\"f:value\\\":{}},\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"PGPORT\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:name\\\":{},\\\"f:value\\\":{}},\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"PGUSER\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:name\\\":{},\\\"f:value\\\":{}}},\\\"f:image\\\":{},\\\"f:imagePullPolicy\\\":{},\\\"f:name\\\":{},\\\"f:resources\\\":{},\\\"f:terminationMessagePath\\\":{},\\\"f:terminationMessagePolicy\\\":{}}},\\\"f:dnsPolicy\\\":{},\\\"f:restartPolicy\\\":{},\\\"f:schedulerName\\\":{},\\\"f:securityContext\\\":{},\\\"f:terminationGracePeriodSeconds\\\":{}}}}}},{\\\"manager\\\":\\\"kube-controller-manager\\\",\\\"operation\\\":\\\"Update\\\",\\\"apiVersion\\\":\\\"apps/v1\\\",\\\"time\\\":\\\"2021-02-21T15:47:34Z\\\",\\\"fieldsType\\\":\\\"FieldsV1\\\",\\\"fieldsV1\\\":{\\\"f:metadata\\\":{\\\"f:annotations\\\":{\\\"f:deployment.kubernetes.io/revision\\\":{}}},\\\"f:status\\\":{\\\"f:availableReplicas\\\":{},\\\"f:conditions\\\":{\\\".\\\":{},\\\"k:{\\\\\\\"type\\\\\\\":\\\\\\\"Available\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:lastTransitionTime\\\":{},\\\"f:lastUpdateTime\\\":{},\\\"f:message\\\":{},\\\"f:reason\\\":{},\\\"f:status\\\":{},\\\"f:type\\\":{}},\\\"k:{\\\\\\\"type\\\\\\\":\\\\\\\"Progressing\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:lastTransitionTime\\\":{},\\\"f:lastUpdateTime\\\":{},\\\"f:message\\\":{},\\\"f:reason\\\":{},\\\"f:status\\\":{},\\\"f:type\\\":{}}},\\\"f:observedGeneration\\\":{},\\\"f:readyReplicas\\\":{},\\\"f:replicas\\\":{},\\\"f:updatedReplicas\\\":{}}}}],\\\"name\\\":\\\"api\\\",\\\"namespace\\\":\\\"default\\\",\\\"resourceVersion\\\":\\\"75548\\\",\\\"uid\\\":\\\"45363954-fe60-41df-8a8d-183a34dbc549\\\"},\\\"spec\\\":{\\\"progressDeadlineSeconds\\\":600,\\\"replicas\\\":1,\\\"revisionHistoryLimit\\\":10,\\\"selector\\\":{\\\"matchLabels\\\":{\\\"app.kubernetes.io/component\\\":\\\"api\\\",\\\"app.kubernetes.io/managed-by\\\":\\\"Helm\\\",\\\"app.kubernetes.io/name\\\":\\\"devspace-app\\\"}},\\\"strategy\\\":{\\\"type\\\":\\\"Recreate\\\"},\\\"template\\\":{\\\"metadata\\\":{\\\"creationTimestamp\\\":null,\\\"labels\\\":{\\\"app.kubernetes.io/component\\\":\\\"api\\\",\\\"app.kubernetes.io/managed-by\\\":\\\"Helm\\\",\\\"app.kubernetes.io/name\\\":\\\"devspace-app\\\"},\\\"annotations\\\":{\\\"helm.sh/chart\\\":\\\"component-chart-0.7.1\\\"}},\\\"spec\\\":{\\\"containers\\\":[{\\\"env\\\":[{\\\"name\\\":\\\"PGUSER\\\",\\\"value\\\":\\\"postgres\\\"},{\\\"name\\\":\\\"PGHOST\\\",\\\"value\\\":\\\"postgres\\\"},{\\\"name\\\":\\\"PGDATABASE\\\",\\\"value\\\":\\\"postgres\\\"},{\\\"name\\\":\\\"PGPASSWORD\\\",\\\"value\\\":\\\"postgres_password\\\"},{\\\"name\\\":\\\"PGPORT\\\",\\\"value\\\":5432}],\\\"image\\\":\\\"teonapster/todo-api:GFjGssM\\\",\\\"name\\\":\\\"container-0\\\"}],\\\"dnsPolicy\\\":\\\"ClusterFirst\\\",\\\"restartPolicy\\\":\\\"Always\\\",\\\"schedulerName\\\":\\\"default-scheduler\\\",\\\"securityContext\\\":{},\\\"terminationGracePeriodSeconds\\\":5}}},\\\"status\\\":{\\\"observedGeneration\\\":16,\\\"replicas\\\":1,\\\"updatedReplicas\\\":1,\\\"readyReplicas\\\":1,\\\"availableReplicas\\\":1,\\\"conditions\\\":[{\\\"type\\\":\\\"Available\\\",\\\"status\\\":\\\"True\\\",\\\"lastUpdateTime\\\":\\\"2021-02-21T15:47:34Z\\\",\\\"lastTransitionTime\\\":\\\"2021-02-21T15:47:34Z\\\",\\\"reason\\\":\\\"MinimumReplicasAvailable\\\",\\\"message\\\":\\\"Deployment has minimum availability.\\\"},{\\\"type\\\":\\\"Progressing\\\",\\\"status\\\":\\\"True\\\",\\\"lastUpdateTime\\\":\\\"2021-02-21T15:47:34Z\\\",\\\"lastTransitionTime\\\":\\\"2021-02-20T20:28:31Z\\\",\\\"reason\\\":\\\"NewReplicaSetAvailable\\\",\\\"message\\\":\\\"ReplicaSet \\\\\\\"api-897d7b865\\\\\\\" has successfully progressed.\\\"}]}}\": v1.Deployment.Spec: v1.DeploymentSpec.Template: v1.PodTemplateSpec.Spec: v1.PodSpec.Containers: []v1.Container: v1.Container.Env: []v1.EnvVar: v1.EnvVar.Value: ReadString: expects \" or n, but found 5, error found in #10 byte of ...|,\"value\":5432}],\"ima|..., bigger context ...|e\":\"postgres_password\"},{\"name\":\"PGPORT\",\"value\":5432}],\"image\":\"teonapster/todo-api:GFjGssM\",\"name\"|...\n =\u003e exit status 1\nRun `\u001b[1;37mdevspace purge -d api\u001b[0m` and `\u001b[1;37mdevspace deploy\u001b[0m` to recreate the chart","time":"2021-02-21T17:51:12+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:55:54+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:55:54+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:55:55+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:55:56+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:55:56+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:55:57+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 6)","time":"2021-02-21T17:55:58+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T17:55:58+02:00"}
+{"level":"fatal","msg":"error deploying: Error deploying api: Unable to deploy helm chart: error during '/home/teonapster/.devspace/bin/helm upgrade api /home/teonapster/.devspace/component-chart/component-chart-0.7.1.tgz --namespace default --values /tmp/385527133 --install --kube-context minikube': Error: UPGRADE FAILED: cannot patch \"api\" with kind Deployment:  \"\" is invalid: patch: Invalid value: \"{\\\"apiVersion\\\":\\\"apps/v1\\\",\\\"kind\\\":\\\"Deployment\\\",\\\"metadata\\\":{\\\"annotations\\\":{\\\"deployment.kubernetes.io/revision\\\":\\\"16\\\",\\\"helm.sh/chart\\\":\\\"component-chart-0.7.1\\\",\\\"meta.helm.sh/release-name\\\":\\\"api\\\",\\\"meta.helm.sh/release-namespace\\\":\\\"default\\\"},\\\"creationTimestamp\\\":\\\"2021-02-20T20:28:31Z\\\",\\\"generation\\\":16,\\\"labels\\\":{\\\"app.kubernetes.io/component\\\":\\\"api\\\",\\\"app.kubernetes.io/managed-by\\\":\\\"Helm\\\",\\\"app.kubernetes.io/name\\\":\\\"devspace-app\\\"},\\\"managedFields\\\":[{\\\"manager\\\":\\\"Go-http-client\\\",\\\"operation\\\":\\\"Update\\\",\\\"apiVersion\\\":\\\"apps/v1\\\",\\\"time\\\":\\\"2021-02-21T15:47:14Z\\\",\\\"fieldsType\\\":\\\"FieldsV1\\\",\\\"fieldsV1\\\":{\\\"f:metadata\\\":{\\\"f:annotations\\\":{\\\".\\\":{},\\\"f:helm.sh/chart\\\":{},\\\"f:meta.helm.sh/release-name\\\":{},\\\"f:meta.helm.sh/release-namespace\\\":{}},\\\"f:labels\\\":{\\\".\\\":{},\\\"f:app.kubernetes.io/component\\\":{},\\\"f:app.kubernetes.io/managed-by\\\":{},\\\"f:app.kubernetes.io/name\\\":{}}},\\\"f:spec\\\":{\\\"f:progressDeadlineSeconds\\\":{},\\\"f:replicas\\\":{},\\\"f:revisionHistoryLimit\\\":{},\\\"f:selector\\\":{\\\"f:matchLabels\\\":{\\\".\\\":{},\\\"f:app.kubernetes.io/component\\\":{},\\\"f:app.kubernetes.io/managed-by\\\":{},\\\"f:app.kubernetes.io/name\\\":{}}},\\\"f:strategy\\\":{\\\"f:type\\\":{}},\\\"f:template\\\":{\\\"f:metadata\\\":{\\\"f:annotations\\\":{\\\".\\\":{},\\\"f:helm.sh/chart\\\":{}},\\\"f:labels\\\":{\\\".\\\":{},\\\"f:app.kubernetes.io/component\\\":{},\\\"f:app.kubernetes.io/managed-by\\\":{},\\\"f:app.kubernetes.io/name\\\":{}}},\\\"f:spec\\\":{\\\"f:containers\\\":{\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"container-0\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:env\\\":{\\\".\\\":{},\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"PGDATABASE\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:name\\\":{},\\\"f:value\\\":{}},\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"PGHOST\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:name\\\":{},\\\"f:value\\\":{}},\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"PGPASSWORD\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:name\\\":{},\\\"f:value\\\":{}},\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"PGPORT\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:name\\\":{},\\\"f:value\\\":{}},\\\"k:{\\\\\\\"name\\\\\\\":\\\\\\\"PGUSER\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:name\\\":{},\\\"f:value\\\":{}}},\\\"f:image\\\":{},\\\"f:imagePullPolicy\\\":{},\\\"f:name\\\":{},\\\"f:resources\\\":{},\\\"f:terminationMessagePath\\\":{},\\\"f:terminationMessagePolicy\\\":{}}},\\\"f:dnsPolicy\\\":{},\\\"f:restartPolicy\\\":{},\\\"f:schedulerName\\\":{},\\\"f:securityContext\\\":{},\\\"f:terminationGracePeriodSeconds\\\":{}}}}}},{\\\"manager\\\":\\\"kube-controller-manager\\\",\\\"operation\\\":\\\"Update\\\",\\\"apiVersion\\\":\\\"apps/v1\\\",\\\"time\\\":\\\"2021-02-21T15:47:34Z\\\",\\\"fieldsType\\\":\\\"FieldsV1\\\",\\\"fieldsV1\\\":{\\\"f:metadata\\\":{\\\"f:annotations\\\":{\\\"f:deployment.kubernetes.io/revision\\\":{}}},\\\"f:status\\\":{\\\"f:availableReplicas\\\":{},\\\"f:conditions\\\":{\\\".\\\":{},\\\"k:{\\\\\\\"type\\\\\\\":\\\\\\\"Available\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:lastTransitionTime\\\":{},\\\"f:lastUpdateTime\\\":{},\\\"f:message\\\":{},\\\"f:reason\\\":{},\\\"f:status\\\":{},\\\"f:type\\\":{}},\\\"k:{\\\\\\\"type\\\\\\\":\\\\\\\"Progressing\\\\\\\"}\\\":{\\\".\\\":{},\\\"f:lastTransitionTime\\\":{},\\\"f:lastUpdateTime\\\":{},\\\"f:message\\\":{},\\\"f:reason\\\":{},\\\"f:status\\\":{},\\\"f:type\\\":{}}},\\\"f:observedGeneration\\\":{},\\\"f:readyReplicas\\\":{},\\\"f:replicas\\\":{},\\\"f:updatedReplicas\\\":{}}}}],\\\"name\\\":\\\"api\\\",\\\"namespace\\\":\\\"default\\\",\\\"resourceVersion\\\":\\\"75548\\\",\\\"uid\\\":\\\"45363954-fe60-41df-8a8d-183a34dbc549\\\"},\\\"spec\\\":{\\\"progressDeadlineSeconds\\\":600,\\\"replicas\\\":1,\\\"revisionHistoryLimit\\\":10,\\\"selector\\\":{\\\"matchLabels\\\":{\\\"app.kubernetes.io/component\\\":\\\"api\\\",\\\"app.kubernetes.io/managed-by\\\":\\\"Helm\\\",\\\"app.kubernetes.io/name\\\":\\\"devspace-app\\\"}},\\\"strategy\\\":{\\\"type\\\":\\\"Recreate\\\"},\\\"template\\\":{\\\"metadata\\\":{\\\"creationTimestamp\\\":null,\\\"labels\\\":{\\\"app.kubernetes.io/component\\\":\\\"api\\\",\\\"app.kubernetes.io/managed-by\\\":\\\"Helm\\\",\\\"app.kubernetes.io/name\\\":\\\"devspace-app\\\"},\\\"annotations\\\":{\\\"helm.sh/chart\\\":\\\"component-chart-0.7.1\\\"}},\\\"spec\\\":{\\\"containers\\\":[{\\\"env\\\":[{\\\"name\\\":\\\"PGUSER\\\",\\\"value\\\":\\\"postgres\\\"},{\\\"name\\\":\\\"PGHOST\\\",\\\"value\\\":\\\"postgres\\\"},{\\\"name\\\":\\\"PGDATABASE\\\",\\\"value\\\":\\\"postgres\\\"},{\\\"name\\\":\\\"PGPASSWORD\\\",\\\"value\\\":\\\"postgres_password\\\"},{\\\"name\\\":\\\"PGPORT\\\",\\\"value\\\":5432}],\\\"image\\\":\\\"teonapster/todo-api:GFjGssM\\\",\\\"name\\\":\\\"container-0\\\"}],\\\"dnsPolicy\\\":\\\"ClusterFirst\\\",\\\"restartPolicy\\\":\\\"Always\\\",\\\"schedulerName\\\":\\\"default-scheduler\\\",\\\"securityContext\\\":{},\\\"terminationGracePeriodSeconds\\\":5}}},\\\"status\\\":{\\\"observedGeneration\\\":16,\\\"replicas\\\":1,\\\"updatedReplicas\\\":1,\\\"readyReplicas\\\":1,\\\"availableReplicas\\\":1,\\\"conditions\\\":[{\\\"type\\\":\\\"Available\\\",\\\"status\\\":\\\"True\\\",\\\"lastUpdateTime\\\":\\\"2021-02-21T15:47:34Z\\\",\\\"lastTransitionTime\\\":\\\"2021-02-21T15:47:34Z\\\",\\\"reason\\\":\\\"MinimumReplicasAvailable\\\",\\\"message\\\":\\\"Deployment has minimum availability.\\\"},{\\\"type\\\":\\\"Progressing\\\",\\\"status\\\":\\\"True\\\",\\\"lastUpdateTime\\\":\\\"2021-02-21T15:47:34Z\\\",\\\"lastTransitionTime\\\":\\\"2021-02-20T20:28:31Z\\\",\\\"reason\\\":\\\"NewReplicaSetAvailable\\\",\\\"message\\\":\\\"ReplicaSet \\\\\\\"api-897d7b865\\\\\\\" has successfully progressed.\\\"}]}}\": v1.Deployment.Spec: v1.DeploymentSpec.Template: v1.PodTemplateSpec.Spec: v1.PodSpec.Containers: []v1.Container: v1.Container.Env: []v1.EnvVar: v1.EnvVar.Value: ReadString: expects \" or n, but found 5, error found in #10 byte of ...|,\"value\":5432}],\"ima|..., bigger context ...|e\":\"postgres_password\"},{\"name\":\"PGPORT\",\"value\":5432}],\"image\":\"teonapster/todo-api:GFjGssM\",\"name\"|...\n =\u003e exit status 1\nRun `\u001b[1;37mdevspace purge -d api\u001b[0m` and `\u001b[1;37mdevspace deploy\u001b[0m` to recreate the chart","time":"2021-02-21T17:55:58+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:56:18+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:56:18+02:00"}
+{"level":"info","msg":"Successfully deleted deployment api","time":"2021-02-21T17:56:20+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:56:28+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:56:28+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:56:28+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:56:29+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:56:30+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:56:30+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 7)","time":"2021-02-21T17:56:31+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T17:56:31+02:00"}
+{"level":"fatal","msg":"error deploying: Error deploying api: Unable to deploy helm chart: error during '/home/teonapster/.devspace/bin/helm upgrade api /home/teonapster/.devspace/component-chart/component-chart-0.7.1.tgz --namespace default --values /tmp/847536029 --install --kube-context minikube': Release \"api\" does not exist. Installing it now.\nError: Deployment in version \"v1\" cannot be handled as a Deployment: v1.Deployment.Spec: v1.DeploymentSpec.Template: v1.PodTemplateSpec.Spec: v1.PodSpec.Containers: []v1.Container: v1.Container.Env: []v1.EnvVar: v1.EnvVar.Value: ReadString: expects \" or n, but found 5, error found in #10 byte of ...|,\"value\":5432}],\"env|..., bigger context ...|e\":\"postgres_password\"},{\"name\":\"PGPORT\",\"value\":5432}],\"envFrom\":null,\"image\":\"teonapster/todo-api:|...\n =\u003e exit status 1\nRun `\u001b[1;37mdevspace purge -d api\u001b[0m` and `\u001b[1;37mdevspace deploy\u001b[0m` to recreate the chart","time":"2021-02-21T17:56:32+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:56:45+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:56:45+02:00"}
+{"level":"info","msg":"Successfully deleted deployment api","time":"2021-02-21T17:56:46+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:56:50+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:56:50+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:56:51+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:56:52+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:56:53+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-client:mClTbxk (client)","time":"2021-02-21T17:57:04+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 8)","time":"2021-02-21T17:57:05+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T17:57:05+02:00"}
+{"level":"fatal","msg":"Error deploying api: Unable to deploy helm chart: error during '/home/teonapster/.devspace/bin/helm upgrade api /home/teonapster/.devspace/component-chart/component-chart-0.7.1.tgz --namespace default --values /tmp/884800122 --install --kube-context minikube': Release \"api\" does not exist. Installing it now.\nError: Deployment in version \"v1\" cannot be handled as a Deployment: v1.Deployment.Spec: v1.DeploymentSpec.Template: v1.PodTemplateSpec.Spec: v1.PodSpec.Containers: []v1.Container: v1.Container.Env: []v1.EnvVar: v1.EnvVar.Value: ReadString: expects \" or n, but found 5, error found in #10 byte of ...|,\"value\":5432}],\"env|..., bigger context ...|e\":\"postgres_password\"},{\"name\":\"PGPORT\",\"value\":5432}],\"envFrom\":null,\"image\":\"teonapster/todo-api:|...\n =\u003e exit status 1\nRun `\u001b[1;37mdevspace purge -d api\u001b[0m` and `\u001b[1;37mdevspace deploy\u001b[0m` to recreate the chart","time":"2021-02-21T17:57:06+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T17:57:23+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T17:57:23+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T17:57:25+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T17:57:25+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T17:57:25+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T17:57:26+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 9)","time":"2021-02-21T17:57:27+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T17:57:27+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 2)","time":"2021-02-21T17:57:28+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T17:57:28+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T17:57:28+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T17:57:28+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-67576788bd-qktq4)","time":"2021-02-21T17:57:30+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T17:57:30+02:00"}
+{"level":"fatal","msg":"start sync: Unable to start sync: Error selecting pod: timeout: couldn't find a pod / container in time with image selector: teonapster/todo-client:mClTbxk","time":"2021-02-21T18:07:30+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T18:21:23+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T18:21:23+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T18:21:24+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T18:21:25+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T18:21:25+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T18:21:26+02:00"}
+{"level":"info","msg":"Skipping deployment database","time":"2021-02-21T18:21:26+02:00"}
+{"level":"info","msg":"Skipping deployment api","time":"2021-02-21T18:21:26+02:00"}
+{"level":"info","msg":"Skipping deployment client","time":"2021-02-21T18:21:26+02:00"}
+{"level":"info","msg":"Skipping deployment nginx","time":"2021-02-21T18:21:26+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-67576788bd-qktq4)","time":"2021-02-21T18:22:04+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T18:22:04+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T18:24:16+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T18:24:16+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T18:24:17+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T18:24:18+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T18:24:19+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T18:24:19+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 10)","time":"2021-02-21T18:24:20+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T18:24:20+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 3)","time":"2021-02-21T18:24:20+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T18:24:20+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 12)","time":"2021-02-21T18:24:21+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T18:24:21+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 33)","time":"2021-02-21T18:24:22+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T18:24:22+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-67576788bd-qktq4)","time":"2021-02-21T18:24:24+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T18:24:24+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-6ddcffb44d-tp748)","time":"2021-02-21T18:24:29+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T18:24:29+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T18:24:29+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T18:27:26+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T18:27:26+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T18:27:26+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T18:27:26+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:DbvMTjm (nginx)","time":"2021-02-21T18:27:35+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:PggOVdb (app)","time":"2021-02-21T18:27:39+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 11)","time":"2021-02-21T18:27:40+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T18:27:40+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 4)","time":"2021-02-21T18:27:41+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T18:27:41+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 13)","time":"2021-02-21T18:27:42+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T18:27:42+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 34)","time":"2021-02-21T18:27:43+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T18:27:43+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-5d65475645-6t9jl)","time":"2021-02-21T18:27:47+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T18:27:47+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-6ddcffb44d-tp748)","time":"2021-02-21T18:27:49+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T18:27:49+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T18:27:49+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T18:33:10+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T18:33:10+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T18:33:11+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T18:33:11+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:qNfvUzx (nginx)","time":"2021-02-21T18:33:18+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:AFMNvSJ (app)","time":"2021-02-21T18:33:20+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 12)","time":"2021-02-21T18:33:21+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T18:33:21+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 5)","time":"2021-02-21T18:33:22+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T18:33:22+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 14)","time":"2021-02-21T18:33:22+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T18:33:22+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 35)","time":"2021-02-21T18:33:23+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T18:33:23+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-565d4586df-xg45p)","time":"2021-02-21T18:33:38+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T18:33:38+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-6ddcffb44d-tp748)","time":"2021-02-21T18:33:41+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T18:33:41+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T18:33:41+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T18:45:12+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T18:45:12+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T18:45:14+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T18:45:14+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:onzehmI (nginx)","time":"2021-02-21T18:45:21+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:jfjdxJS (app)","time":"2021-02-21T18:45:23+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 13)","time":"2021-02-21T18:45:24+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T18:45:24+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 6)","time":"2021-02-21T18:45:24+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T18:45:24+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 15)","time":"2021-02-21T18:45:25+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T18:45:25+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 36)","time":"2021-02-21T18:45:26+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T18:45:26+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-869ffbf659-xspfm)","time":"2021-02-21T18:45:31+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T18:45:31+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-6ddcffb44d-tp748)","time":"2021-02-21T18:45:33+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T18:45:33+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T18:45:33+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T18:46:48+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T18:46:48+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T18:46:49+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T18:46:49+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:eVCPdnq (nginx)","time":"2021-02-21T18:46:57+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:bEzyoUn (app)","time":"2021-02-21T18:46:59+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 14)","time":"2021-02-21T18:46:59+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T18:46:59+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 7)","time":"2021-02-21T18:47:00+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T18:47:00+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 16)","time":"2021-02-21T18:47:01+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T18:47:01+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 37)","time":"2021-02-21T18:47:02+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T18:47:02+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-5dd57d5b7d-jkmmd)","time":"2021-02-21T18:47:08+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T18:47:08+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-6ddcffb44d-tp748)","time":"2021-02-21T18:47:11+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T18:47:11+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T18:47:11+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T18:48:45+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T18:48:45+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T18:48:47+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T18:48:47+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:MuJiYgM (nginx)","time":"2021-02-21T18:48:55+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:iSeJNZi (app)","time":"2021-02-21T18:48:57+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 15)","time":"2021-02-21T18:48:58+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T18:48:58+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 8)","time":"2021-02-21T18:48:59+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T18:48:59+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 17)","time":"2021-02-21T18:48:59+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T18:48:59+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 38)","time":"2021-02-21T18:49:00+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T18:49:00+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-6db98cfbc5-b5nbl)","time":"2021-02-21T18:49:05+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T18:49:05+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-6ddcffb44d-tp748)","time":"2021-02-21T18:49:08+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T18:49:08+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T18:49:08+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T18:51:28+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T18:51:28+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T18:51:29+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T18:51:29+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:ipYSlVo (nginx)","time":"2021-02-21T18:51:39+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:ZxvMznq (app)","time":"2021-02-21T18:51:40+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 16)","time":"2021-02-21T18:51:41+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T18:51:41+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 9)","time":"2021-02-21T18:51:42+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T18:51:42+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 18)","time":"2021-02-21T18:51:43+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T18:51:43+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 39)","time":"2021-02-21T18:51:44+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T18:51:44+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-db954c857-rmqt6)","time":"2021-02-21T18:51:48+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T18:51:48+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-6ddcffb44d-tp748)","time":"2021-02-21T18:51:50+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T18:51:50+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T18:51:50+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T18:54:55+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T18:54:55+02:00"}
+{"level":"info","msg":"Skip building image 'app'","time":"2021-02-21T18:54:57+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T18:54:57+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T18:54:57+02:00"}
+{"level":"info","msg":"Skip building image 'nginx'","time":"2021-02-21T18:54:58+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 17)","time":"2021-02-21T18:54:59+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T18:54:59+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 10)","time":"2021-02-21T18:55:00+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T18:55:00+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 19)","time":"2021-02-21T18:55:01+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T18:55:01+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 40)","time":"2021-02-21T18:55:01+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T18:55:01+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-db954c857-rmqt6)","time":"2021-02-21T18:55:04+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T18:55:04+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-6ddcffb44d-tp748)","time":"2021-02-21T18:55:06+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T18:55:06+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T18:55:06+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T18:57:58+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T18:57:58+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T18:58:00+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T18:58:00+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:qPbgmzD (nginx)","time":"2021-02-21T18:58:08+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:krfYwYw (app)","time":"2021-02-21T18:58:10+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 18)","time":"2021-02-21T18:58:11+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T18:58:11+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 11)","time":"2021-02-21T18:58:12+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T18:58:12+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 20)","time":"2021-02-21T18:58:13+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T18:58:13+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 41)","time":"2021-02-21T18:58:13+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T18:58:13+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-797596dbfb-vfrmc)","time":"2021-02-21T18:58:27+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T18:58:27+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-6ddcffb44d-tp748)","time":"2021-02-21T18:58:30+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T18:58:30+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T18:58:30+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T19:01:32+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T19:01:32+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T19:01:32+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T19:01:32+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:mGYNFsY (nginx)","time":"2021-02-21T19:01:39+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:CQYYuXh (app)","time":"2021-02-21T19:01:43+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 19)","time":"2021-02-21T19:01:44+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T19:01:44+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 12)","time":"2021-02-21T19:01:44+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T19:01:44+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 21)","time":"2021-02-21T19:01:45+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T19:01:45+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 42)","time":"2021-02-21T19:01:46+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T19:01:46+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-65cccfdf68-g75k6)","time":"2021-02-21T19:01:58+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T19:01:58+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-6ddcffb44d-tp748)","time":"2021-02-21T19:02:00+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T19:02:00+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T19:02:00+02:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-02-21T19:03:31+02:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-02-21T19:03:31+02:00"}
+{"level":"info","msg":"Skip building image 'client'","time":"2021-02-21T19:03:32+02:00"}
+{"level":"info","msg":"Skipping building image database","time":"2021-02-21T19:03:32+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-nginx:PxlRfTO (nginx)","time":"2021-02-21T19:03:39+02:00"}
+{"level":"info","msg":"Done building image teonapster/todo-api:njJpeAI (app)","time":"2021-02-21T19:03:41+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 20)","time":"2021-02-21T19:03:42+02:00"}
+{"level":"info","msg":"Successfully deployed database with helm","time":"2021-02-21T19:03:42+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 13)","time":"2021-02-21T19:03:42+02:00"}
+{"level":"info","msg":"Successfully deployed api with helm","time":"2021-02-21T19:03:42+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 22)","time":"2021-02-21T19:03:43+02:00"}
+{"level":"info","msg":"Successfully deployed client with helm","time":"2021-02-21T19:03:43+02:00"}
+{"level":"info","msg":"Deployed helm chart (Release revision: 43)","time":"2021-02-21T19:03:44+02:00"}
+{"level":"info","msg":"Successfully deployed nginx with helm","time":"2021-02-21T19:03:44+02:00"}
+{"level":"info","msg":"Port forwarding started on 80:80 (default/nginx-6ddf96f454-pc86j)","time":"2021-02-21T19:03:59+02:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-02-21T19:03:59+02:00"}
+{"level":"info","msg":"Sync started on /home/teonapster/projects/todo-app/todo-app/client \u003c-\u003e /app/dist (Pod: default/client-6ddcffb44d-tp748)","time":"2021-02-21T19:04:01+02:00"}
+{"level":"info","msg":"Opening 'http://localhost' as soon as application will be started (timeout: 4m0s)","time":"2021-02-21T19:04:01+02:00"}
+{"level":"info","msg":"Starting log streaming","time":"2021-02-21T19:04:01+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:39+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:40+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:40+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:40+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:40+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:40+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:40+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:40+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:40+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:40+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:40+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:41+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:41+02:00"}
+{"level":"error","msg":"Error restarting port-forwarding: Error selecting pod: pods by image name: list pods: Get \"https://127.0.0.1:32771/api/v1/namespaces/default/pods\": dial tcp 127.0.0.1:32771: connect: connection refused","time":"2021-02-21T19:04:41+02:00"}
+{"level":"error","msg":"Will try again in 3 seconds","time":"2021-02-21T19:04:41+02:00"}

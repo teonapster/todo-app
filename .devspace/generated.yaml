@@ -1,0 +1,45 @@
+profiles:
+  "":
+    deployments:
+      api:
+        deploymentConfigHash: eac5a6bb1c0af51887b46b31471f9aa3cf0077b3bf297f59019033a7158d6b66
+        helmChartHash: 9d7719c03686c60313644d32d9f10d36e7189300ca056160310c1d0b559aa1ee
+        helmReleaseRevision: "13"
+      client:
+        deploymentConfigHash: 816d8bb7e42b69e3964d3e249c8521d12c0d7ba08659890540b587de7ff81e5c
+        helmChartHash: 9d7719c03686c60313644d32d9f10d36e7189300ca056160310c1d0b559aa1ee
+        helmReleaseRevision: "22"
+      database:
+        deploymentConfigHash: 172cc60feb2984841b6e2d1e8c275577431bb91da68f7f7787d1fa62dc749cde
+        helmChartHash: 9d7719c03686c60313644d32d9f10d36e7189300ca056160310c1d0b559aa1ee
+        helmReleaseRevision: "20"
+      nginx:
+        deploymentConfigHash: ebc18a7cde927fe68d16937858e9d4b0660c9fd8508d1389bd37a73896360a57
+        helmChartHash: 9d7719c03686c60313644d32d9f10d36e7189300ca056160310c1d0b559aa1ee
+        helmReleaseRevision: "43"
+      server:
+        deploymentConfigHash: 53674724d6e3e3fb2310bee2349b0b8c21574594dbd498872d0e2ab2a67dac4c
+        helmChartHash: 9d7719c03686c60313644d32d9f10d36e7189300ca056160310c1d0b559aa1ee
+        helmReleaseRevision: "7"
+    images:
+      app:
+        imageConfigHash: 764d1d542b75c677cce8e6cc5d151045f2abd16fcf1793f27e82cf1570a47015
+        dockerfileHash: bf608816d9fb2a648fb5f2049f930eadc5fe847efc693d52304cd9985814db6f
+        contextHash: 2f125d7b3accfbe2d8b4d9a5d8ddfaa0366870148706904f0d963dcb90f39812
+        imageName: teonapster/todo-api
+        tag: njJpeAI
+      client:
+        imageConfigHash: 2f1b22fea18c58dc955ad4d7f120c66c4bee965ff323a3978df7f8dd4aad42d6
+        dockerfileHash: 9543238ae10a7253139bc9be981197554397f8dbb78d0e85e7f03e009d964119
+        contextHash: 861b66fd428b922f186faa89ed0380d9daaa8f3abfc631f1097b5e77292f7c9d
+        imageName: teonapster/todo-client
+        tag: mClTbxk
+      nginx:
+        imageConfigHash: da8e6a76d860c5655225f8220144c3c85e0f2cf7153f033e54769e8bf4c7e6ed
+        dockerfileHash: c456a3356562799c017ae34fd75c725fb6e57009657513262fb1144b8e8108c4
+        contextHash: 2f125d7b3accfbe2d8b4d9a5d8ddfaa0366870148706904f0d963dcb90f39812
+        imageName: teonapster/todo-nginx
+        tag: PxlRfTO
+    lastContext:
+      namespace: default
+      context: minikube
